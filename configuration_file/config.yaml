@@ -1536,7 +1536,198 @@ production pathways:
       exists in original database: True
       regionalize: True
 
+#Kerosene
+  fossil_kerosene:
+    production volume:
+      variable: Production|Liquids|Kerosene|Fossil kerosene
+    ecoinvent alias:
+      name: kerosene production, petroleum refinery operation
+      reference product: kerosene
+      exists in original database: True
+      regionalize: True
 
+  bio_kerosene:
+    production volume:
+      variable: Production|Liquids|Kerosene|Biokerosene
+    ecoinvent alias:
+      name: WCO hydrocracking
+      reference product: biokerosene (HVO)
+      exists in original database: True
+      regionalize: True
+
+#Mobility
+  #train
+  mob_train:
+    production volume:
+      variable: Mobility|Train
+    ecoinvent alias:
+      name: transport, passenger train, high-speed
+      reference product: transport, passenger train
+      exists in original database: True
+      regionalize: True
+  #bike
+  mob_bicycle:
+    production volume:
+      variable: Mobility|Bicycle
+    ecoinvent alias:
+      name: transport, passenger, bicycle
+      reference product: transport, passenger, bicycle
+      exists in original database: True
+      regionalize: True
+  #car
+  mob_car_diesel:
+    production volume:
+      variable: Mobility|Diesel car
+    ecoinvent alias:
+      name: transport, passenger car, diesel, Medium, EURO-6
+      reference product: transport, passenger car, EURO-6
+      exists in original database: True
+      regionalize: True
+
+  mob_car_petrol:
+    production volume:
+      variable: Mobility|Petrol car
+    ecoinvent alias:
+      name: transport, passenger car, gasoline, Medium, EURO-6
+      reference product: transport, passenger car, EURO-6
+      exists in original database: True
+      regionalize: True
+
+  mob_car_LPG:
+    production volume:
+      variable: Mobility|LPG car
+    ecoinvent alias:
+      name: transport, passenger car, medium size, liquefied petroleum gas (LPG), EURO 5
+      reference product: transport, passenger car, medium size, liquefied petroleum gas, EURO 5
+      exists in original database: True
+      regionalize: True
+
+  mob_car_cng:
+    production volume:
+      variable: Mobility|CNG car
+    ecoinvent alias:
+      name: transport, passenger car, compressed gas, Medium, EURO-6
+      reference product: transport, passenger car, EURO-6
+      exists in original database: True
+      regionalize: True
+
+  mob_car_electric:
+    production volume:
+      variable: Mobility|Electric car
+    ecoinvent alias:
+      name: transport, passenger car, battery electric, Medium
+      reference product: transport, passenger car
+      exists in original database: True
+      regionalize: True
+
+  mob_car_hybrid:
+    production volume:
+      variable: Mobility|Hybrid car
+    ecoinvent alias:
+      name: transport, passenger car, gasoline hybrid, Medium, EURO-6
+      reference product: transport, passenger car, EURO-6
+      exists in original database: True
+      regionalize: True
+
+  mob_car_fuelcell:
+    production volume:
+      variable: Mobility|Fuel cell car
+    ecoinvent alias:
+      name: transport, passenger car, fuel cell electric, Medium
+      reference product: transport, passenger car
+      exists in original database: True
+      regionalize: True
+  #bus
+  mob_bus_diesel:
+    production volume:
+      variable: Mobility|Diesel bus
+    ecoinvent alias:
+      name: transport, regular bus
+      reference product: transport, regular bus
+      exists in original database: True
+      regionalize: True
+
+  mob_bus_petrol:
+    production volume:
+      variable: Mobility|Petrol bus
+    ecoinvent alias:
+      name: transport, passenger bus, gasoline, 13m single deck urban bus, EURO-VI
+      reference product: transport, passenger bus, EURO-VI
+      exists in original database: True
+      regionalize: True
+
+  mob_bus_lpg:
+    production volume:
+      variable: Mobility|LPG bus
+    ecoinvent alias:
+      name: transport, passenger bus, liquefied petroleum gas, 13m single deck urban bus, EURO-VI
+      reference product: transport, passenger bus, EURO-VI
+      exists in original database: True
+      regionalize: True
+  
+  mob_bus_CNG:
+    production volume:
+      variable: Mobility|CNG bus
+    ecoinvent alias:
+      name: transport, passenger bus, compressed gas, 13m single deck urban bus, EURO-VI
+      reference product: transport, passenger bus, EURO-VI
+      exists in original database: True
+      regionalize: True
+
+  mob_bus_electric:
+    production volume:
+      variable: Mobility|Electric bus
+    ecoinvent alias:
+      name: transport, passenger bus, battery electric - overnight charging, 13m single deck urban bus
+      reference product: transport, passenger bus
+      exists in original database: True
+      regionalize: True
+
+  mob_bus_hybrid:
+    production volume:
+      variable: Mobility|Hybrid bus
+    ecoinvent alias:
+      name: transport, passenger bus, battery electric - opportunity charging, LTO battery, 13m double deck urban bus
+      reference product: transport, passenger bus
+      exists in original database: True
+      regionalize: True
+
+  mob_bus_fuelcell:
+    production volume:
+      variable: Mobility|Fuel cell bus
+    ecoinvent alias:
+      name: transport, passenger bus, fuel cell electric, 13m single deck urban bus
+      reference product: transport, passenger bus
+      exists in original database: True
+      regionalize: True
+  #motorbikes
+  mob_bike_petrol:
+    production volume:
+      variable: Mobility|Petrol bike
+    ecoinvent alias:
+      name: transport, Motorbike, gasoline, 11-35kW, EURO-5
+      reference product: transport, Motorbike, gasoline, 11-35kW, EURO-5
+      exists in original database: True
+      regionalize: True
+
+  mob_bike_electric:
+    production volume:
+      variable: Mobility|Electric bike
+    ecoinvent alias:
+      name: transport, Motorbike, battery electric, 11-35kW
+      reference product: transport, Motorbike, battery electric, 11-35kW
+      exists in original database: True
+      regionalize: True
+  
+  #aviation
+  mob_plane_kerosene:
+    production volume:
+      variable: Mobility|Kerosene aviation
+    ecoinvent alias:
+      name: transport, passenger aircraft, medium haul
+      reference product: transport, passenger aircraft, medium haul
+      exists in original database: True
+      regionalize: True
 
 markets:
 
@@ -2026,6 +2217,14 @@ markets:
       - methane_reforming_CCS_hydrogen_ptogas
       - electrolysis_hydrogen_ptogas
 
+    replaces:
+      - name: hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity, domestic, Tr2050
+        product: hydrogen, gaseous, 30 bar
+        location: FR
+    
+    replaces in:
+      - location: FR
+        operator: equals
 
     add:
       - name: pipeline, hydrogen, low pressure distribution network
@@ -2420,4 +2619,114 @@ markets:
       fossil_diesel:
           Carbon dioxide, fossil: 3.15
           Carbon dioxide, non-fossil: 0.0  
-        
+
+#Market for kerosene  
+
+  - name: market for kerosene, Tr2050
+    reference product: kerosene
+    unit: kilogram
+    includes:
+      - fossil_kerosene
+      - bio_kerosene
+
+    replaces:
+      - name: market for kerosene
+        product: kerosene
+        operator: equals
+
+    replaces in:
+      - location: FR
+
+    add:
+      - name: infrastructure construction, for regional distribution of oil product
+        reference product: infrastructure, for regional distribution of oil product
+        amount: 1.04e-10
+      - name: market for fly ash and scrubber sludge
+        reference product: fly ash and scrubber sludge
+        amount: -0.0000185
+      - name: market for heat, central or small-scale, other than natural gas
+        reference product: heat, central or small-scale, other than natural gas
+        amount: 0.00058374
+      - name: market for rainwater mineral oil storage
+        reference product: rainwater mineral oil storage
+        amount: -5.0e-05
+      - name: market for tap water
+        reference product: tap water
+        amount: 0.000689
+      - name: market for transport, freight train
+        reference product: transport, freight train
+        amount: 0.044
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.0567
+      - name: market for transport, freight, inland waterways, barge tanker
+        reference product: transport, freight, inland waterways, barge tanker
+        amount: 0.0323
+      - name: market for transport, freight, light commercial vehicle
+        reference product: transport, freight, light commercial vehicle
+        amount: 0.0018
+      - name: market for transport, freight, sea, tanker for petroleum
+        reference product: transport, freight, sea, tanker for petroleum
+        amount: 0.645
+      - name: market for transport, pipeline, onshore, petroleum
+        reference product: transport, pipeline, onshore, petroleum
+        amount: 0.559
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 0.0067
+      - name: market for wastewater, average
+        reference product: wastewater, average
+        amount: -6.89e-07
+      - name: market for municipal solid waste
+        reference product: municipal solid waste
+        amount: -6.27e-06
+      - name: Water
+        categories: air
+        unit: cubic meter
+        amount: 1.0335e-07
+      - name: Water
+        categories: water
+        unit: cubic meter
+        amount: 5.8565e-07
+      - name: NMVOC, non-methane volatile organic compounds
+        categories: air
+        unit: kilogram
+        amount: 1.0e-05
+
+    is fuel:
+      fossil_kerosene:
+          Carbon dioxide, fossil: 3.15
+          Carbon dioxide, non-fossil: 0.0
+      
+      bio_kerosene:
+          Carbon dioxide, fossil: 0.0
+          Carbon dioxide, non-fossil: 3.15
+
+#Consuming markets
+
+  # Mobility
+  
+  - name: market for mobility, Tr2050
+    reference product: transport, passenger
+    unit: pkm
+    includes:
+      - mob_train
+      - mob_bicycle
+      - mob_car_diesel
+      - mob_car_petrol
+      - mob_car_LPG
+      - mob_car_cng
+      - mob_car_electric
+      - mob_car_hybrid
+      - mob_car_fuelcell
+      - mob_bus_diesel
+      - mob_bus_petrol
+      - mob_bus_lpg
+      - mob_bus_CNG
+      - mob_bus_electric
+      - mob_bus_hybrid
+      - mob_bus_fuelcell
+      - mob_bike_petrol
+      - mob_bike_electric
+      - mob_plane_kerosene
+

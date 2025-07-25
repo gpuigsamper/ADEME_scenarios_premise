@@ -417,6 +417,27 @@ S1,FR,Production|Liquids|Petrol|Fossil petrol,%,0.9357,0.5347,0
 S1,FR,Production|Liquids|Petrol|Bioethanol,%,0.0643,0.4653,1
 S1,FR,Production|Liquids|Diesel|Fossil diesel,%,0.9278,0.7561,0.5273
 S1,FR,Production|Liquids|Diesel|Biodiesel,%,0.0722,0.2439,0.4727
+S1,FR,Production|Liquids|Kerosene|Fossil kerosene,%,1,0.831,0.604
+S1,FR,Production|Liquids|Kerosene|Biokerosene,%,0,0.169,0.396
+S1,FR,Mobility|Train,pkm,626.53,802.56,1154.63
+S1,FR,Mobility|Bicycle,pkm,40.8605472,193.1351199,497.6842651
+S1,FR,Mobility|Diesel car,pkm,2017.1663,987.4905,16.6191
+S1,FR,Mobility|Petrol car,pkm,662.9185,341.0319,33.2381
+S1,FR,Mobility|LPG car,pkm,9.47026411230453,4.58974453944162,0
+S1,FR,Mobility|CNG car,pkm,0,0,0
+S1,FR,Mobility|Electric car,pkm,0,888.741442637333,1495.71470328049
+S1,FR,Mobility|Hybrid car,pkm,0,59.2494295091555,99.7143135520325
+S1,FR,Mobility|Fuel cell car,pkm,0,0,0
+S1,FR,Mobility|Diesel bus,pkm,217.9767229207,157.817020270033,2.96873919764149
+S1,FR,Mobility|Petrol bus,pkm,72.2493126878048,52.010548152926,0
+S1,FR,Mobility|LPG bus,pkm,1.10304294179855,0.794054170273679,0
+S1,FR,Mobility|CNG bus,pkm,0,0,0
+S1,FR,Mobility|Electric bus,pkm,0,153.757762062085,506.733069942255
+S1,FR,Mobility|Hybrid bus,pkm,0,10.2505174708057,33.782204662817
+S1,FR,Mobility|Fuel cell bus,pkm,0,0,0
+S1,FR,Mobility|Petrol bike,pkm,81.7210944706402,44.3417603092043,1.92688323024538
+S1,FR,Mobility|Electric bike,pkm,0,31.5487830072823,62.302557777934
+S1,FR,Mobility|Kerosene aviation,pkm,1157.71550500074,1030.60615453052,776.387453590098
 S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,3.82E+08,3.60E+08
 S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,1.22E+07,0.00E+00
 S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.54E+08,2.42E+08
