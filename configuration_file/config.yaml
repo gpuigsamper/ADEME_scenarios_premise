@@ -1496,6 +1496,48 @@ production pathways:
       exists in original database: False
       new dataset: True 
 
+#Petrol
+
+  bioethanol_biomass:
+    production volume:
+      variable: Production|Liquids|Petrol|Bioethanol
+    ecoinvent alias:
+      name: dewatering of ethanol from biomass, from 95% to 99.7% solution state #fermentation because of S1 narrative
+      reference product: ethanol, without water, in 99.7% solution state, from fermentation
+      exists in original database: True
+      regionalize: True
+  
+  fossil_petrol:
+    production volume:
+      variable: Production|Liquids|Petrol|Fossil petrol
+    ecoinvent alias:
+      name: petrol, low-sulfur, import from Europe
+      reference product: petrol, low-sulfur
+      exists in original database: True
+      regionalize: True
+
+#Diesel
+
+  biodiesel_est:
+    production volume:
+      variable: Production|Liquids|Diesel|Biodiesel
+    ecoinvent alias:
+      name: biodiesel, from used cooking oil, at fuelling station #transesterification because of S1 narrative
+      reference product: biodiesel, vehicle grade
+      exists in original database: True
+      regionalize: True
+  
+  fossil_diesel:
+    production volume:
+      variable: Production|Liquids|Diesel|Fossil diesel
+    ecoinvent alias:
+      name: diesel, low-sulfur, import from Europe
+      reference product: diesel, low-sulfur
+      exists in original database: True
+      regionalize: True
+
+
+
 markets:
 
 #Electricity
@@ -2237,3 +2279,145 @@ markets:
 
     replaces in:
       - location: FR
+
+#Market for petrol
+
+  - name: market for petrol, Tr2050
+    reference product: petrol
+    unit: kilogram
+    includes:
+      - bioethanol_biomass
+      - fossil_petrol
+
+    replaces:
+      - name: market for petrol, low-sulfur
+        product: petrol, low-sulfur
+        operator: equals
+
+      - name: fuel supply for gasoline vehicles
+        product: gasoline blend
+        operator: equals
+    
+    replaces in:
+      - location: FR
+
+    add:
+      - name: infrastructure construction, for regional distribution of oil product
+        reference product: infrastructure, for regional distribution of oil product
+        amount: 2.78e-10
+      - name: market for fly ash and scrubber sludge
+        reference product: fly ash and scrubber sludge
+        amount: -0.000168
+      - name: market for heat, central or small-scale, other than natural gas
+        reference product: heat, central or small-scale, other than natural gas
+        amount: 0.000584
+      - name: market for municipal solid waste
+        reference product: municipal solid waste
+        amount: -6.27e-06
+      - name: market for rainwater mineral oil storage
+        reference product: rainwater mineral oil storage
+        amount: -7.5e-05
+      - name: market for tap water
+        reference product: tap water
+        amount: 0.000689
+      - name: market for transport, freight train
+        reference product: transport, freight train
+        amount: 0.0336
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.0326
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 0.0067
+      - name: treatment of wastewater, average, wastewater treatment
+        reference product: wastewater, average
+        amount: -6.89e-07
+      - name: Water
+        categories: air
+        unit: cubic meter
+        amount: 1.0335e-07
+      - name: Water
+        categories: water
+        unit: cubic meter
+        amount: 5.8565e-07
+
+    is fuel:
+      bioethanol_biomass:
+          Carbon dioxide, fossil: 0.0
+          Carbon dioxide, non-fossil: 3.15
+      fossil_petrol:
+          Carbon dioxide, fossil: 3.15
+          Carbon dioxide, non-fossil: 0.0
+
+#Market for diesel  
+      
+  - name: market for diesel, Tr2050
+    reference product: diesel
+    unit: kilogram
+    includes:
+      - biodiesel_est
+      - fossil_diesel
+
+    replaces:
+      - name: market for diesel, low-sulfur
+        product: diesel, low-sulfur
+        operator: equals
+
+      - name: market for diesel
+        product: diesel
+        operator: equals
+
+    replaces in:
+      - location: FR
+
+    add:
+      - name: infrastructure construction, for regional distribution of oil product
+        reference product: infrastructure, for regional distribution of oil product
+        amount: 2.48e-10
+      - name: market for fly ash and scrubber sludge
+        reference product: fly ash and scrubber sludge
+        amount: -0.000168
+      - name: market for heat, central or small-scale, other than natural gas
+        reference product: heat, central or small-scale, other than natural gas
+        amount: 0.000584
+      - name: market for municipal solid waste
+        reference product: municipal solid waste
+        amount: -6.27e-06
+      - name: market for rainwater mineral oil storage
+        reference product: rainwater mineral oil storage
+        amount: -7.5e-05
+      - name: market for tap water
+        reference product: tap water
+        amount: 0.000689
+      - name: market for transport, freight train
+        reference product: transport, freight train
+        amount: 0.0336
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.0326
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 0.0067
+      - name: market for diesel
+        reference product: diesel
+        amount: 0.000551109935409916
+      - name: treatment of wastewater, average, wastewater treatment
+        reference product: wastewater, average
+        amount: -6.89e-07
+      - name: Water
+        categories: air
+        unit: cubic meter
+        amount: 1.0335e-07
+      - name: Water
+        categories: water
+        unit: cubic meter
+        amount: 5.8565e-07
+
+    is fuel:
+      biodiesel_est:
+          Carbon dioxide, fossil: 0.0
+          Carbon dioxide, non-fossil: 3.15
+      fossil_diesel:
+          Carbon dioxide, fossil: 3.15
+          Carbon dioxide, non-fossil: 0.0  
+        
