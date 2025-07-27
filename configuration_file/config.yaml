@@ -1724,10 +1724,24 @@ production pathways:
     production volume:
       variable: Mobility|Kerosene aviation
     ecoinvent alias:
-      name: transport, passenger aircraft, medium haul
+      name: transport, passenger aircraft
       reference product: transport, passenger aircraft, medium haul
       exists in original database: True
       regionalize: True
+
+    efficiency:
+      - variable: Efficiency|Mobility|Aviation kerosene
+        reference year: 2020
+        includes:
+          technosphere: 
+            - kerosene
+          biosphere:
+            - Carbon dioxide
+            - Nitrogen
+            - Hydrocarbons
+            - Carbon monoxide
+            - Water
+            - Sulfur
 
 markets:
 
