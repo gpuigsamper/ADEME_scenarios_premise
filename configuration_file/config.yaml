@@ -1827,6 +1827,79 @@ production pathways:
       reference product: heat, air-water heat pump 10kW
       exists in original database: True
       regionalize: True
+    
+#Non-residential (healthcare, education, and collective services)
+
+  nonres_heating_dt:
+    production volume:
+      variable: Shelter|Non-residential|District heat|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, central or small-scale, natural gas
+      exists in original database: True
+      regionalize: True
+
+  nonres_heating_gas:
+    production volume:
+      variable: Shelter|Non-residential|Gas|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, central or small-scale, natural gas
+      exists in original database: True
+      regionalize: True
+
+  nonres_heating_fuel_oil:
+    production volume:
+      variable: Shelter|Non-residential|Oil|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, light fuel oil, at boiler 10kW condensing, non-modulating
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  nonres_heating_wood:
+    production volume:
+      variable: Shelter|Non-residential|Wood|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, mixed logs, at wood heater 6kW
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True  
+  
+  nonres_electric_boiler:
+    production volume:
+      variable: Shelter|Non-residential|Electricity|Space heating and cooling
+    ecoinvent alias:
+      name: heat, electric boiler
+      reference product: heat
+      exists in original database: True
+
+  nonres_heating_lpg:
+    production volume:
+      variable: Shelter|Non-residential|LPG|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, light fuel oil, at boiler 10kW condensing, non-modulating
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  nonres_heating_solar:
+    production volume:
+      variable: Shelter|Non-residential|Solar|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, at hot water tank, solar+electric, flat plate, multiple dwelling
+      reference product: heat, solar+electric, multiple-dwelling, for hot water
+      exists in original database: True
+      regionalize: True
+
+  nonres_heating_heat_pump:
+    production volume:
+      variable: Shelter|Non-residential|Electricity heat pump|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, air-water heat pump 10kW
+      reference product: heat, air-water heat pump 10kW
+      exists in original database: True
+      regionalize: True
 
 markets:
 
@@ -2829,7 +2902,7 @@ markets:
       - mob_bike_electric
       - mob_plane_kerosene
 
-  # Shelter
+  # Shelter (heating and cooling)
   
   - name: market for heat shelter, Tr2050
     reference product: heat
@@ -2844,3 +2917,17 @@ markets:
       - shelter_heating_solar
       - shelter_heating_heat_pump
 
+  # Non-residential buildings (heating and cooling)
+
+  - name: market for heat non-residential, Tr2050
+    reference product: heat
+    unit: megajoule
+    includes:
+      - nonres_heating_dt
+      - nonres_heating_gas
+      - nonres_heating_fuel_oil
+      - nonres_heating_wood
+      - nonres_electric_boiler
+      - nonres_heating_lpg
+      - nonres_heating_solar
+      - nonres_heating_heat_pump

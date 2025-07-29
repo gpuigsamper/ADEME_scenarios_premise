@@ -447,6 +447,14 @@ S1,FR,Shelter|Residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
 S1,FR,Shelter|Residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
 S1,FR,Shelter|Residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
 S1,FR,Shelter|Residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Non-residential|District heat|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Non-residential|Gas|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Non-residential|Oil|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Non-residential|Wood|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Non-residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Non-residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Non-residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Non-residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
 S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,3.82E+08,3.60E+08
 S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,1.22E+07,0.00E+00
 S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.54E+08,2.42E+08
