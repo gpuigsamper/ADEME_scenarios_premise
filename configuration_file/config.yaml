@@ -13,6 +13,18 @@ regionalize:
       reference product: heat, central or small-scale, biomethane
       exists in original database: True
 
+    - name: ethanol production from sugar beet
+      reference product: ethanol, without water, in 95% solution state, from fermentation
+      exists in original database: True
+
+    - name: ethanol production from whey
+      reference product: ethanol, without water, in 95% solution state, from fermentation
+      exists in original database: True
+
+    - name: ethanol production from grass
+      reference product: ethanol, without water, in 95% solution state, from fermentation
+      exists in original database: True     
+
 production pathways:
 
 #Electricity
@@ -1502,7 +1514,7 @@ production pathways:
     production volume:
       variable: Production|Liquids|Petrol|Bioethanol
     ecoinvent alias:
-      name: dewatering of ethanol from biomass, from 95% to 99.7% solution state #fermentation because of S1 narrative
+      name: dewatering of ethanol from biomass, from 95% to 99.7% solution state 
       reference product: ethanol, without water, in 99.7% solution state, from fermentation
       exists in original database: True
       regionalize: True
@@ -1522,7 +1534,7 @@ production pathways:
     production volume:
       variable: Production|Liquids|Diesel|Biodiesel
     ecoinvent alias:
-      name: biodiesel, from used cooking oil, at fuelling station #transesterification because of S1 narrative
+      name: biodiesel, from used cooking oil, at fuelling station 
       reference product: biodiesel, vehicle grade
       exists in original database: True
       regionalize: True
@@ -1742,6 +1754,79 @@ production pathways:
             - Carbon monoxide
             - Water
             - Sulfur
+
+#Residential (shelter)
+
+  shelter_heating_dt:
+    production volume:
+      variable: Shelter|Residential|District heat|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, central or small-scale, natural gas
+      exists in original database: True
+      regionalize: True
+
+  shelter_heating_gas:
+    production volume:
+      variable: Shelter|Residential|Gas|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, central or small-scale, natural gas
+      exists in original database: True
+      regionalize: True
+
+  shelter_heating_fuel_oil:
+    production volume:
+      variable: Shelter|Residential|Oil|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, light fuel oil, at boiler 10kW condensing, non-modulating
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  shelter_heating_wood:
+    production volume:
+      variable: Shelter|Residential|Wood|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, mixed logs, at wood heater 6kW
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True  
+  
+  shelter_electric_boiler:
+    production volume:
+      variable: Shelter|Residential|Electricity|Space heating and cooling
+    ecoinvent alias:
+      name: heat, electric boiler
+      reference product: heat
+      exists in original database: True
+
+  shelter_heating_lpg:
+    production volume:
+      variable: Shelter|Residential|LPG|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, light fuel oil, at boiler 10kW condensing, non-modulating
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  shelter_heating_solar:
+    production volume:
+      variable: Shelter|Residential|Solar|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, at hot water tank, solar+electric, flat plate, multiple dwelling
+      reference product: heat, solar+electric, multiple-dwelling, for hot water
+      exists in original database: True
+      regionalize: True
+
+  shelter_heating_heat_pump:
+    production volume:
+      variable: Shelter|Residential|Electricity heat pump|Space heating and cooling
+    ecoinvent alias:
+      name: heat production, air-water heat pump 10kW
+      reference product: heat, air-water heat pump 10kW
+      exists in original database: True
+      regionalize: True
 
 markets:
 
@@ -2743,4 +2828,19 @@ markets:
       - mob_bike_petrol
       - mob_bike_electric
       - mob_plane_kerosene
+
+  # Shelter
+  
+  - name: market for heat shelter, Tr2050
+    reference product: heat
+    unit: megajoule
+    includes:
+      - shelter_heating_dt
+      - shelter_heating_gas
+      - shelter_heating_fuel_oil
+      - shelter_heating_wood
+      - shelter_electric_boiler
+      - shelter_heating_lpg
+      - shelter_heating_solar
+      - shelter_heating_heat_pump
 

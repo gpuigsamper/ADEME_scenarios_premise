@@ -419,6 +419,7 @@ S1,FR,Production|Liquids|Diesel|Fossil diesel,%,0.9278,0.7561,0.5273
 S1,FR,Production|Liquids|Diesel|Biodiesel,%,0.0722,0.2439,0.4727
 S1,FR,Production|Liquids|Kerosene|Fossil kerosene,%,1,0.831,0.604
 S1,FR,Production|Liquids|Kerosene|Biokerosene,%,0,0.169,0.396
+S1,FR,Efficiency|Mobility|Aviation kerosene,%,1,1.347,1.507
 S1,FR,Mobility|Train,pkm,626.53,802.56,1154.63
 S1,FR,Mobility|Bicycle,pkm,40.8605472,193.1351199,497.6842651
 S1,FR,Mobility|Diesel car,km,2105.933281,584.699735,6.4031658
@@ -438,7 +439,14 @@ S1,FR,Mobility|Fuel cell bus,pkm,0,0,0
 S1,FR,Mobility|Petrol bike,pkm,81.72109447,72.19564028,17.13671109
 S1,FR,Mobility|Electric bike,pkm,0,3.694903036,47.09272992
 S1,FR,Mobility|Kerosene aviation,pkm,1157.715505,1030.606155,776.3874536
-S1,FR,Efficiency|Mobility|Aviation kerosene,%,1,1.347,1.507
+S1,FR,Shelter|Residential|District heat|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Residential|Gas|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Residential|Oil|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Residential|Wood|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
+S1,FR,Shelter|Residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
 S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,3.82E+08,3.60E+08
 S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,1.22E+07,0.00E+00
 S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.54E+08,2.42E+08
