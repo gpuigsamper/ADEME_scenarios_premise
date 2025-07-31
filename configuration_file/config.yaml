@@ -1914,10 +1914,10 @@ production pathways:
     production volume:
       variable: Shelter|Non-residential|District heat|Space heating and cooling
     ecoinvent alias:
-      name: heat production, natural gas, at boiler condensing modulating <100kW
-      reference product: heat, central or small-scale, natural gas
-      exists in original database: True
-      regionalize: True
+      name: market for district heat, Tr2050
+      reference product: heat, district or industrial, other than natural gas
+      exists in original database: False
+      new dataset: True
 
   nonres_heating_gas:
     production volume:
