@@ -1514,10 +1514,9 @@ production pathways:
     production volume:
       variable: Production|Liquids|Petrol|Bioethanol
     ecoinvent alias:
-      name: dewatering of ethanol from biomass, from 95% to 99.7% solution state 
-      reference product: ethanol, without water, in 99.7% solution state, from fermentation
+      name: dewatering of ethanol from biomass, from 95% to 99.7% 
+      reference product: ethanol, from fermentation, 99.7%
       exists in original database: True
-      regionalize: True
   
   fossil_petrol:
     production volume:
@@ -1888,7 +1887,7 @@ production pathways:
       name: heat production, light fuel oil, at boiler 10kW condensing, non-modulating
       reference product: heat, central or small-scale, other than natural gas
       exists in original database: True
-      regionalize: True
+      regionalize: True  
 
   shelter_heating_solar:
     production volume:
