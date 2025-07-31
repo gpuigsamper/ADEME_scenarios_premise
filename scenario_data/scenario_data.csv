@@ -420,6 +420,14 @@ S1,FR,Production|Liquids|Diesel|Biodiesel,%,0.0722,0.2439,0.4727
 S1,FR,Production|Liquids|Kerosene|Fossil kerosene,%,1,0.831,0.604
 S1,FR,Production|Liquids|Kerosene|Biokerosene,%,0,0.169,0.396
 S1,FR,Efficiency|Mobility|Aviation kerosene,%,1,1.347,1.507
+S1,FR,Production|Liquids|Light fuel oil|Fossil,TWh,1,1,1
+S1,FR,Production|Liquids|LPG|Fossil,TWh,1,1,1
+S1,FR,Heat production|District heating|Wastes,TWh,6.4,10,7.5
+S1,FR,Heat production|District heating|Wood,TWh,6,14,17
+S1,FR,Heat production|District heating|Geothermal,TWh,1.4,3,3
+S1,FR,Heat production|District heating|Solar,TWh,0.7,0.505,0.35
+S1,FR,Heat production|District heating|Biogas,TWh,0.7,0.505,0.35
+S1,FR,Heat production|District heating|Gas,TWh,11.5,10.5,3
 S1,FR,Mobility|Train,pkm,626.53,802.56,1154.63
 S1,FR,Mobility|Bicycle,pkm,40.8605472,193.1351199,497.6842651
 S1,FR,Mobility|Diesel car,km,2105.933281,584.699735,6.4031658

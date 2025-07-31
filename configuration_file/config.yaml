@@ -1523,7 +1523,7 @@ production pathways:
     production volume:
       variable: Production|Liquids|Petrol|Fossil petrol
     ecoinvent alias:
-      name: petrol, low-sulfur, import from Europe
+      name: petrol production, low-sulfur
       reference product: petrol, low-sulfur
       exists in original database: True
       regionalize: True
@@ -1543,12 +1543,13 @@ production pathways:
     production volume:
       variable: Production|Liquids|Diesel|Fossil diesel
     ecoinvent alias:
-      name: diesel, low-sulfur, import from Europe
+      name: diesel production, low-sulfur
       reference product: diesel, low-sulfur
       exists in original database: True
       regionalize: True
 
 #Kerosene
+
   fossil_kerosene:
     production volume:
       variable: Production|Liquids|Kerosene|Fossil kerosene
@@ -1564,6 +1565,28 @@ production pathways:
     ecoinvent alias:
       name: WCO hydrocracking
       reference product: biokerosene (HVO)
+      exists in original database: True
+      regionalize: True
+
+#Fuel oil
+
+  light_fuel_oil:
+    production volume:
+      variable: Production|Liquids|Light fuel oil|Fossil
+    ecoinvent alias:
+      name: light fuel oil production, petroleum refinery operation
+      reference product: light fuel oil
+      exists in original database: True
+      regionalize: True
+
+#LPG
+
+  liquefied_petroleum_gas:
+    production volume:
+      variable: Production|Liquids|LPG|Fossil
+    ecoinvent alias:
+      name: liquefied petroleum gas production, petroleum refinery operation
+      reference product: liquefied petroleum gas
       exists in original database: True
       regionalize: True
 
@@ -1755,16 +1778,73 @@ production pathways:
             - Water
             - Sulfur
 
+#District heating
+   
+  dh_wastes:
+    production volume:
+      variable: Heat production|District heating|Wastes
+    ecoinvent alias:
+      name: treatment of municipal solid waste, incineration
+      reference product: heat, for reuse in municipal waste incineration only
+      exists in original database: True
+      regionalize: True
+
+  dh_wood:
+    production volume:
+      variable: Heat production|District heating|Wood
+    ecoinvent alias:
+      name: heat and power co-generation, wood chips, 6667 kW, state-of-the-art 2014
+      reference product: heat, district or industrial, other than natural gas
+      mask: renewable
+      exists in original database: True
+      regionalize: True
+  
+  dh_geothermal:
+    production volume:
+      variable: Heat production|District heating|Geothermal
+    ecoinvent alias:
+      name: heat production, deep geothermal
+      reference product: heat, deep geothermal
+      exists in original database: True
+      regionalize: True
+
+  dh_solar:
+    production volume:
+      variable: Heat production|District heating|Solar
+    ecoinvent alias:
+      name: heat production, at hot water tank, solar+electric, flat plate, multiple dwelling
+      reference product: heat, solar+electric, multiple-dwelling, for hot water
+      exists in original database: True
+      regionalize: True
+
+  dh_biogas:
+    production volume:
+      variable: Heat production|District heating|Biogas
+    ecoinvent alias:
+      name: heat and power co-generation, biogas, gas engine
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  dh_gas:
+    production volume:
+      variable: Heat production|District heating|Gas
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating >100kW
+      reference product: heat, district or industrial, natural gas
+      exists in original database: True
+      regionalize: True
+
 #Residential (shelter)
 
   shelter_heating_dt:
     production volume:
       variable: Shelter|Residential|District heat|Space heating and cooling
     ecoinvent alias:
-      name: heat production, natural gas, at boiler condensing modulating <100kW
-      reference product: heat, central or small-scale, natural gas
-      exists in original database: True
-      regionalize: True
+      name: market for district heat, Tr2050
+      reference product: heat, district or industrial, other than natural gas
+      exists in original database: False
+      new dataset: True
 
   shelter_heating_gas:
     production volume:
@@ -2873,6 +2953,153 @@ markets:
       bio_kerosene:
           Carbon dioxide, fossil: 0.0
           Carbon dioxide, non-fossil: 3.15
+
+#Market for light fuel oil  
+
+  - name: market for light fuel oil, Tr2050
+    reference product: light fuel oil
+    unit: kilogram
+    includes:
+      - light_fuel_oil
+
+    add:
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 0.0067
+      - name: market for transport, pipeline, onshore, petroleum
+        reference product: transport, pipeline, onshore, petroleum
+        amount: 0.30735          
+      - name: market for tap water
+        reference product: tap water
+        amount: 0.000689
+      - name: infrastructure construction, for regional distribution of oil product
+        reference product: infrastructure, for regional distribution of oil product
+        amount: 1.04e-10
+      - name: treatment of wastewater, average, wastewater treatment
+        reference product: wastewater, average
+        amount: -6.89e-07
+      - name: market for municipal solid waste
+        reference product: municipal solid waste
+        amount: -6.27e-06
+      - name: market for fly ash and scrubber sludge
+        reference product: fly ash and scrubber sludge
+        amount: -1.85e-05
+      - name: market for rainwater mineral oil storage
+        reference product: rainwater mineral oil storage
+        amount: -5.00e-05
+      - name: market for transport, freight train
+        reference product: transport, freight train
+        amount: 0.0440
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.0567
+      - name: market for transport, freight, inland waterways, barge tanker
+        reference product: transport, freight, inland waterways, barge tanker
+        amount: 0.0323
+      - name: market for transport, freight, light commercial vehicle
+        reference product: transport, freight, light commercial vehicle
+        amount: 0.0018
+      - name: market for transport, freight, sea, tanker for liquefied natural gas
+        reference product: transport, freight, sea, tanker for liquefied natural gas
+        amount: 0.645
+      - name: Water
+        categories: air
+        unit: cubic meter
+        amount: 1.0335e-07
+      - name: Water
+        categories: water
+        unit: cubic meter
+        amount: 5.8565e-07
+
+    replaces:
+      - name: market for light fuel oil
+        product: light fuel oil
+        operator: equals
+
+    replaces in:
+      - location: FR
+
+#Market for LPG 
+
+  - name: market for LPG, Tr2050
+    reference product: liquefied petroleum gas
+    unit: kilogram
+    includes:
+      - liquefied_petroleum_gas
+
+    add:
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 0.00278
+      - name: market for fly ash and scrubber sludge
+        reference product: fly ash and scrubber sludge
+        amount: -0.000168
+      - name: market for infrastructure, for regional distribution of oil product
+        reference product: infrastructure, for regional distribution of oil product
+        amount: 2.78e-10
+      - name: market for LPG, Tr2050
+        reference product: liquefied petroleum gas
+        amount: 0.000401150684942281
+      - name: market for municipal solid waste
+        reference product: municipal solid waste
+        amount: -6.27e-06
+      - name: market for rainwater mineral oil storage
+        reference product: rainwater mineral oil storage
+        amount: -5.00e-05
+      - name: market for transport, freight train
+        reference product: transport, freight train
+        amount: 0.0440
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.0567
+      - name: market for transport, freight, inland waterways, barge tanker
+        reference product: transport, freight, inland waterways, barge tanker
+        amount: 0.0323
+      - name: market for transport, freight, light commercial vehicle
+        reference product: transport, freight, light commercial vehicle
+        amount: 0.0018
+      - name: market for transport, freight, sea, tanker for liquefied natural gas
+        reference product: transport, freight, sea, tanker for liquefied natural gas
+        amount: 0.645
+      - name: treatment of wastewater, average, wastewater treatment
+        reference product: wastewater, average
+        amount: -6.89e-07
+      - name: Butane
+        categories: air
+        unit: kilogram
+        amount: 0.00016482
+      - name: Propane
+        categories: air
+        unit: kilogram
+        amount: 0.00016482
+
+    replaces:
+      - name: market for liquefied petroleum gas
+        product: liquefied petroleum gas
+        operator: equals
+
+    replaces in:
+      - location: FR
+
+  #Heat
+
+  - name: market for district heat, Tr2050
+    reference product: heat, district or industrial, other than natural gas
+    unit: megajoule
+    includes:
+      - dh_wastes
+      - dh_wood
+      - dh_geothermal
+      - dh_biogas
+      - dh_solar
+      - dh_gas
+
+    replaces:
+      - name: market for heat, district or industrial, other than natural gas
+        product: heat, district or industrial, other than natural gas
+
+    replaces in:
+      - location: FR
 
 #Consuming markets
 
