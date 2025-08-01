@@ -2642,6 +2642,9 @@ markets:
       - name: market for natural gas, high pressure, vehicle grade
         product: natural gas, high pressure, vehicle grade
 
+      - name: market group for natural gas, high pressure
+        product: natural gas, high pressure
+
     replaces in:
       - location: FR
       
