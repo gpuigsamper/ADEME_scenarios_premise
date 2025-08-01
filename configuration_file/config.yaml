@@ -23,7 +23,7 @@ regionalize:
 
     - name: ethanol production from grass
       reference product: ethanol, without water, in 95% solution state, from fermentation
-      exists in original database: True     
+      exists in original database: True  
 
 production pathways:
 
@@ -1517,6 +1517,7 @@ production pathways:
       name: dewatering of ethanol from biomass, from 95% to 99.7% 
       reference product: ethanol, from fermentation, 99.7%
       exists in original database: True
+      regionalize: True
   
   fossil_petrol:
     production volume:
