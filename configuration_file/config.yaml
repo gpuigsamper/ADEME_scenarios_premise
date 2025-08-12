@@ -23,7 +23,27 @@ regionalize:
 
     - name: ethanol production from grass
       reference product: ethanol, without water, in 95% solution state, from fermentation
-      exists in original database: True  
+      exists in original database: True 
+
+    - name: petrol, unleaded, burned in machinery
+      reference product: petrol, unleaded, burned in machinery
+      exists in original database: True
+
+    - name: diesel, burned in agricultural machinery
+      reference product: diesel, burned in agricultural machinery
+      exists in original database: True
+    
+    - name: Farming of corn
+      reference product: corn, harvested
+      exists in original database: True
+
+    - name: biomethane AD transport
+      reference product: biomethane AD transport
+      exists in original database: True
+
+    - name: methane, from electrochemical methanation, transport
+      reference product: methane, from electrochemical methanation, transport
+      exists in original database: True 
 
 production pathways:
 
