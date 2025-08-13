@@ -367,30 +367,30 @@ S1,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biometh
 S1,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,9.81E+08,3.54E+09
 S1,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,6.35E+07,2.74E+07
 S1,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,7.25E+07,1.05E+08
-S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163448536
-S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163885572
-S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163448536
-S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163885572
-S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163448536
-S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163885572
-S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163448536
-S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
-S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.00540062,1.025835592
-S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.031420892,1.163885572
-S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.220515396,5.907434554
+S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
+S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.04386289,1.162776658
+S1,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043898849,1.162924849
+S1,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039315223,1.144255003
+S1,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039805202,1.146229863
+S1,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044007307,1.163371978
+S1,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.042038231,1.155293139
+S1,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044722075,1.166324966
+S1,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
 S1,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane membrane,Nm3/year,1.93E+08,3.07E+09,4.77E+09
 S1,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane chemical,Nm3/year,6.71E+06,1.07E+08,1.66E+08
 S1,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane water,Nm3/year,6.71E+06,1.07E+08,1.66E+08
@@ -486,30 +486,30 @@ S2,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biometh
 S2,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,9.48E+08,3.20E+09
 S2,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.11E+07,4.47E+07
 S2,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.47E+08,1.13E+08
-S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.232999922,1.373254617
-S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.235892289,1.378399399
-S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.243523008,1.404384514
-S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.233260701,1.384273032
-S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.10960602,1.132158988
-S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.707746329,1.931707307
-S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,5.927871313,28.6915773
+S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
+S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.04386289,1.162776658
+S2,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043898849,1.162924849
+S2,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039315223,1.144255003
+S2,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039805202,1.146229863
+S2,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044007307,1.163371978
+S2,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.042038231,1.155293139
+S2,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044722075,1.166324966
+S2,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
 S2,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane membrane,Nm3/year,1.93E+08,3.37E+09,5.29E+09
 S2,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane chemical,Nm3/year,6.71E+06,1.17E+08,1.84E+08
 S2,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane water,Nm3/year,6.71E+06,1.17E+08,1.84E+08
@@ -555,30 +555,30 @@ S3 Renew,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to b
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.54E+08,3.15E+09
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.30E+07,5.17E+07
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.67E+08,2.45E+08
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.232999922,1.373254617
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.235892289,1.378399399
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.243523008,1.404384514
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.233260701,1.384273032
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.10960602,1.132158988
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.707746329,1.931707307
-S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,5.927871313,28.6915773
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.04386289,1.162776658
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043898849,1.162924849
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039315223,1.144255003
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039805202,1.146229863
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044007307,1.163371978
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.042038231,1.155293139
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044722075,1.166324966
+S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane membrane,Nm3/year,1.93E+08,3.67E+09,8.25E+09
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane chemical,Nm3/year,6.71E+06,1.27E+08,2.87E+08
 S3 Renew,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane water,Nm3/year,6.71E+06,1.27E+08,2.87E+08
@@ -624,30 +624,30 @@ S3 Nuc,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to bio
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.54E+08,3.15E+09
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.30E+07,5.17E+07
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.67E+08,2.45E+08
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.232999922,1.373254617
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.235892289,1.378399399
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.243523008,1.404384514
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.233260701,1.384273032
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.10960602,1.132158988
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.707746329,1.931707307
-S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,5.927871313,28.6915773
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.04386289,1.162776658
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043898849,1.162924849
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039315223,1.144255003
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039805202,1.146229863
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044007307,1.163371978
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.042038231,1.155293139
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044722075,1.166324966
+S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane membrane,Nm3/year,1.93E+08,3.67E+09,8.25E+09
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane chemical,Nm3/year,6.71E+06,1.27E+08,2.87E+08
 S3 Nuc,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane water,Nm3/year,6.71E+06,1.27E+08,2.87E+08
@@ -693,30 +693,30 @@ S4,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biometh
 S4,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.11E+08,3.93E+09
 S4,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.40E+07,6.01E+07
 S4,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.74E+08,2.49E+08
-S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.24274411,1.401822308
-S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.232999922,1.373254617
-S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.043204958,1.064408311
-S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.235892289,1.378399399
-S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.828831874,13.69187084
-S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.243523008,1.404384514
-S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.040548915,1.061698284
-S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.233260701,1.384273032
-S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,2.712136891,13.12705373
-S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.10960602,1.132158988
-S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.707746329,1.931707307
-S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,5.927871313,28.6915773
+S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
+S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.04386289,1.162776658
+S4,FR,Efficiency|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043898849,1.162924849
+S4,FR,Efficiency|Natural gas|Anaerobic digestion grass|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039315223,1.144255003
+S4,FR,Efficiency|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.039805202,1.146229863
+S4,FR,Efficiency|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044007307,1.163371978
+S4,FR,Efficiency|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.042038231,1.155293139
+S4,FR,Efficiency|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
+S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
+S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.044722075,1.166324966
+S4,FR,Efficiency|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
 S4,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane membrane,Nm3/year,1.93E+08,4.05E+09,1.12E+10
 S4,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane chemical,Nm3/year,6.71E+06,1.41E+08,3.88E+08
 S4,FR,Production|Natural gas|Anaerobic digestion|Biogas to biomethane water,Nm3/year,6.71E+06,1.41E+08,3.88E+08
