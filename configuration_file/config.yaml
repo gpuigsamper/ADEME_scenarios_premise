@@ -1786,6 +1786,31 @@ production pathways:
             - Water
             - Sulfur
 
+#Heat biomethane
+  heat_biomethane:
+    production volume:
+      variable: Heat production|Natural gas|Biomethane
+    ecoinvent alias:
+      name: heat production, biomethane, at boiler condensing modulating <100kW
+      reference product: heat, biomethane
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Heat production|Biomethane|Consumption #would apply to the others if considering the same ng composition
+        reference year: 2020
+        includes:
+          technosphere: 
+            - biomethane
+      - variable: Efficiency|Heat production|Biomethane|CO2
+        reference year: 2020
+        includes:
+          biosphere:
+            - Carbon dioxide
+      - variable: Efficiency|Heat production|Biomethane|CH4
+        reference year: 2020
+        includes:
+          biosphere:
+            - Methane
+
 #District heating
    
   dh_wastes:
@@ -2614,7 +2639,7 @@ markets:
 
     replaces in:
       - name: heat production, biomethane, at boiler condensing modulating <100kW
-        reference product: heat, central or small-scale, biomethane
+        reference product: heat, biomethane
         location: FR
 
 # Market for natural gas
