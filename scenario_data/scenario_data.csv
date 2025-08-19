@@ -344,14 +344,14 @@ S4,FR,Production|Hydrogen|Total from gas without co-produced from fossil fuels,T
 S4,FR,Production|Hydrogen|Total from electrolysis,TWh H2/year,0,4,23.5
 S4,FR,Production|Hydrogen|Share electrolysis over gas + electrolysis,%,0,22.85714286,66.1971831
 S4,FR,Production|Hydrogen|Fossil fuel refineries|Empty,TWh H2/year,0,0,1
-S1,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,3.53E+08,3.62E+08
-S1,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,1.10E+07,0.00E+00
-S1,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.00E+08,1.97E+08
-S1,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.82E+08,0.00E+00,0.00E+00
-S1,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,1.54E+07,1.98E+07
-S1,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.54E+07,2.37E+08,3.24E+08
-S1,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.83E+08,1.46E+07,1.10E+06
-S1,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.23E+08,1.68E+07,9.86E+06
+S1,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,5.26E+08,5.22E+08
+S1,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,2.17E+07,0.00E+00
+S1,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,7.76E+07,4.91E+07
+S1,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.32E+08,0.00E+00,0.00E+00
+S1,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,2.43E+07,2.03E+07
+S1,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.76E+07,2.07E+08,2.74E+08
+S1,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.95E+08,7.53E+06,1.31E+06
+S1,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.50E+08,8.36E+07,4.73E+07
 S1,FR,Production|Natural gas|Pyrogasification|Renewable,Nm3/year,0,0,0
 S1,FR,Production|Natural gas|Pyrogasification|Fossil,Nm3/year,0,0,0
 S1,FR,Production|Natural gas|Pyrogasification with CCS|Renewable,Nm3/year,0,0,0
@@ -359,14 +359,14 @@ S1,FR,Production|Natural gas|Power to gas,Nm3/year,0,271508379.9,3656312849
 S1,FR,Efficiency|Natural gas|Power to gas|Methanation,%,77,83,85
 S1,FR,Production|Natural gas|Imports|Fossil,Nm3/year,38430000000,21237000000,1807000000
 S1,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0,0,0
-S1,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.25E+07,1.47E+09,3.74E+09
-S1,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.59E+07,4.59E+07,0.00E+00
-S1,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.51E+06,1.25E+09,2.16E+09
-S1,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.59E+07,6.21E+07,9.78E+07
-S1,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.65E+07,7.13E+06,7.11E+06
-S1,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,9.81E+08,3.54E+09
-S1,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,6.35E+07,2.74E+07
-S1,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,7.25E+07,1.05E+08
+S1,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.32E+07,2.12E+09,5.38E+09
+S1,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.61E+07,8.73E+07,0.00E+00
+S1,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.60E+06,3.11E+08,5.39E+08
+S1,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.32E+07,9.72E+07,1.53E+08
+S1,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.66E+07,7.89E+07,7.86E+07
+S1,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.42E+07,8.29E+08,2.99E+09
+S1,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.53E+07,7.60E+07,3.28E+07
+S1,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.66E+07,3.48E+08,5.05E+08
 S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
 S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
 S1,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
@@ -428,7 +428,7 @@ S1,FR,Efficiency|Heat production|Biomethane|CO2,%,1,1.002097,1.00886
 S1,FR,Efficiency|Heat production|Biomethane|CH4,%,1,1,1
 S1,FR,Heat production|Natural gas|Natural gas,TWh,1,1,1
 S1,FR,Efficiency|Heat production|Natural gas|Consumption,%,1,1.00031,1.00753
-S1,FR,Efficiency|Heat production|Natural gas|CO2,%,1,1.000489,1.00780
+S1,FR,Efficiency|Heat production|Natural gas|CO2,%,1,1.000489,1.0078
 S1,FR,Efficiency|Heat production|Natural gas|CH4,%,1,1,1
 S1,FR,Heat production|District heating|Wastes,TWh,6.4,10,7.5
 S1,FR,Heat production|District heating|Wood,TWh,6,14,17
@@ -471,29 +471,29 @@ S1,FR,Shelter|Non-residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
 S1,FR,Shelter|Non-residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
 S1,FR,Shelter|Non-residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
 S1,FR,Shelter|Non-residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
-S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,3.82E+08,3.60E+08
-S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,1.22E+07,0.00E+00
-S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.54E+08,2.42E+08
-S2,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.82E+08,0.00E+00,0.00E+00
-S2,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,1.54E+07,1.98E+07
-S2,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.54E+07,2.19E+08,2.92E+08
-S2,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.83E+08,1.55E+07,1.55E+06
-S2,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.23E+08,3.43E+07,1.06E+07
+S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,5.45E+08,5.36E+08
+S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,2.30E+07,0.00E+00
+S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,8.74E+07,6.23E+07
+S2,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.32E+08,0.00E+00,0.00E+00
+S2,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,2.44E+07,2.03E+07
+S2,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.76E+07,1.84E+08,2.54E+08
+S2,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.95E+08,8.36E+06,1.91E+06
+S2,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.50E+08,1.63E+08,5.23E+07
 S2,FR,Production|Natural gas|Pyrogasification|Renewable,Nm3/year,0,0,3.02E+08
 S2,FR,Production|Natural gas|Pyrogasification|Fossil,Nm3/year,0,0,2.01E+08
 S2,FR,Production|Natural gas|Power to gas,Nm3/year,0,3.00E+08,3.24E+09
 S2,FR,Production|Natural gas|Pyrogasification with CCS|Renewable,Nm3/year,0,0,0
 S2,FR,Efficiency|Natural gas|Power to gas|Methanation,%,77,83,85
-S2,FR,Production|Natural gas|Imports|Fossil,Nm3/year,3.84E+10,2.49E+10,2.52E+09
-S2,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0.00E+00,0.00E+00,0.00E+00
-S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.25E+07,1.58E+09,3.73E+09
-S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.59E+07,5.05E+07,0.00E+00
-S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.51E+06,1.46E+09,2.64E+09
-S2,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.59E+07,6.83E+07,9.74E+07
-S2,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.65E+07,7.84E+06,7.08E+06
-S2,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,9.48E+08,3.20E+09
-S2,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.11E+07,4.47E+07
-S2,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.47E+08,1.13E+08
+S2,FR,Production|Natural gas|Imports|Fossil,Nm3/year,38430000000,2.49E+10,2.52E+09
+S2,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0,0.00E+00,0.00E+00
+S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.32E+07,2.19E+09,5.53E+09
+S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.61E+07,9.19E+07,0.00E+00
+S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.60E+06,3.49E+08,6.77E+08
+S2,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.32E+07,1.02E+08,1.57E+08
+S2,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.66E+07,8.31E+07,8.05E+07
+S2,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.42E+07,7.67E+08,2.78E+09
+S2,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.53E+07,8.14E+07,5.50E+07
+S2,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.66E+07,6.76E+08,5.59E+08
 S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
 S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
 S2,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
@@ -540,14 +540,14 @@ S2,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane water|Elec
 S2,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane PSA|Electricity,%,1,1,1.025
 S2,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane cryogenic|Electricity,%,1,1,1.001
 S2,FR,Production|Natural gas|High to low,TWh,1,1,1
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,4.55E+08,4.22E+08
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,3.12E+07,5.62E+07
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.68E+08,3.01E+08
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.82E+08,0.00E+00,0.00E+00
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,1.54E+07,1.99E+07
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.54E+07,1.69E+08,2.78E+08
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.83E+08,1.55E+07,1.72E+06
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.23E+08,3.78E+07,2.21E+07
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,6.16E+08,5.81E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,5.57E+07,1.02E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,8.61E+07,7.17E+07
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.32E+08,0.00E+00,0.00E+00
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,2.43E+07,2.03E+07
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.76E+07,1.34E+08,2.24E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.95E+08,7.98E+06,1.97E+06
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.50E+08,1.70E+08,1.01E+08
 S3 Renew,FR,Production|Natural gas|Pyrogasification|Renewable,Nm3/year,0,4.30E+07,4848000000
 S3 Renew,FR,Production|Natural gas|Pyrogasification|Fossil,Nm3/year,0,0,1881000000
 S3 Renew,FR,Production|Natural gas|Pyrogasification with CCS|Renewable,Nm3/year,0,0,0
@@ -555,14 +555,14 @@ S3 Renew,FR,Production|Natural gas|Power to gas,Nm3/year,0,326815642.5,205843575
 S3 Renew,FR,Efficiency|Natural gas|Power to gas|Methanation,%,77,83,85
 S3 Renew,FR,Production|Natural gas|Imports|Fossil,Nm3/year,38430000000,29405000000,1518000000
 S3 Renew,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0,0,0
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.25E+07,1.95E+09,4.51E+09
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.59E+07,1.33E+08,6.00E+08
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.51E+06,1.56E+09,3.37E+09
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.59E+07,7.01E+07,1.10E+08
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.65E+07,8.05E+06,7.98E+06
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.54E+08,3.15E+09
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.30E+07,5.17E+07
-S3 Renew,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.67E+08,2.45E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.32E+07,2.56E+09,6.20E+09
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.61E+07,2.30E+08,1.09E+09
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.60E+06,3.56E+08,8.00E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.32E+07,1.00E+08,1.64E+08
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.66E+07,8.12E+07,8.41E+07
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.42E+07,5.81E+08,2.53E+09
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.53E+07,7.96E+07,5.89E+07
+S3 Renew,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.66E+07,7.31E+08,1.12E+09
 S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
 S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
 S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
@@ -609,14 +609,14 @@ S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane wate
 S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane PSA|Electricity,%,1,1,1.025
 S3 Renew,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane cryogenic|Electricity,%,1,1,1.001
 S3 Renew,FR,Production|Natural gas|High to low,TWh,1,1,1
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,4.55E+08,4.22E+08
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,3.12E+07,5.62E+07
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.68E+08,3.01E+08
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.82E+08,0.00E+00,0.00E+00
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,1.54E+07,1.99E+07
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.54E+07,1.69E+08,2.78E+08
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.83E+08,1.55E+07,1.72E+06
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.23E+08,3.78E+07,2.21E+07
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,6.16E+08,5.81E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,5.57E+07,1.02E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,8.61E+07,7.17E+07
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.32E+08,0.00E+00,0.00E+00
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,2.43E+07,2.03E+07
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.76E+07,1.34E+08,2.24E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.95E+08,7.98E+06,1.97E+06
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.50E+08,1.70E+08,1.01E+08
 S3 Nuc,FR,Production|Natural gas|Pyrogasification|Renewable,Nm3/year,0,43000000,4848000000
 S3 Nuc,FR,Production|Natural gas|Pyrogasification|Fossil,Nm3/year,0,0,1881000000
 S3 Nuc,FR,Production|Natural gas|Pyrogasification with CCS|Renewable,Nm3/year,0,0,0
@@ -624,14 +624,14 @@ S3 Nuc,FR,Production|Natural gas|Power to gas,Nm3/year,0,326815642.5,2058435754
 S3 Nuc,FR,Efficiency|Natural gas|Power to gas|Methanation,%,77,83,85
 S3 Nuc,FR,Production|Natural gas|Imports|Fossil,Nm3/year,38430000000,29405000000,1518000000
 S3 Nuc,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0,0,0
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.25E+07,1.95E+09,4.51E+09
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.59E+07,1.33E+08,6.00E+08
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.51E+06,1.56E+09,3.37E+09
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.59E+07,7.01E+07,1.10E+08
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.65E+07,8.05E+06,7.98E+06
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.54E+08,3.15E+09
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.30E+07,5.17E+07
-S3 Nuc,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.67E+08,2.45E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.32E+07,2.56E+09,6.20E+09
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.61E+07,2.30E+08,1.09E+09
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.60E+06,3.56E+08,8.00E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.32E+07,1.00E+08,1.64E+08
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.66E+07,8.12E+07,8.41E+07
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.42E+07,5.81E+08,2.53E+09
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.53E+07,7.96E+07,5.89E+07
+S3 Nuc,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.66E+07,7.31E+08,1.12E+09
 S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
 S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
 S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
@@ -678,14 +678,14 @@ S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane water|
 S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane PSA|Electricity,%,1,1,1.025
 S3 Nuc,FR,Efficiency|Natural gas|Anaerobic digestion|Biogas to biomethane cryogenic|Electricity,%,1,1,1.001
 S3 Nuc,FR,Production|Natural gas|High to low,TWh,1,1,1
-S4,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.41E+08,4.70E+08,4.72E+08
-S4,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,9.67E+07,4.86E+07,6.64E+07
-S4,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.27E+07,3.65E+08,2.82E+08
-S4,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.82E+08,0.00E+00,0.00E+00
-S4,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,1.54E+07,1.99E+07
-S4,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.54E+07,1.60E+08,3.49E+08
-S4,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.83E+08,1.56E+07,1.95E+06
-S4,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.23E+08,3.94E+07,2.26E+07
+S4,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,6.21E+08,6.34E+08
+S4,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,8.45E+07,1.18E+08
+S4,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,8.33E+07,6.55E+07
+S4,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas,Nm3/year,1.32E+08,0.00E+00,0.00E+00
+S4,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas,Nm3/year,0.00E+00,2.43E+07,2.03E+07
+S4,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas,Nm3/year,3.76E+07,1.24E+08,2.75E+08
+S4,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas,Nm3/year,1.95E+08,7.91E+06,2.17E+06
+S4,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas,Nm3/year,4.50E+08,1.73E+08,1.01E+08
 S4,FR,Production|Natural gas|Pyrogasification|Renewable,Nm3/year,0,3.50E+07,1051870586
 S4,FR,Production|Natural gas|Pyrogasification|Fossil,Nm3/year,0,0,1123000000
 S4,FR,Production|Natural gas|Pyrogasification with CCS|Renewable,Nm3/year,0,0,632129414.1
@@ -693,14 +693,14 @@ S4,FR,Production|Natural gas|Power to gas,Nm3/year,0,0,0
 S4,FR,Efficiency|Natural gas|Power to gas|Methanation,%,77,83,85
 S4,FR,Production|Natural gas|Imports|Fossil,Nm3/year,38430000000,39787000000,17045000000
 S4,FR,Production|Natural gas|Imports|Renewable,Nm3/year,0,0,4416000000
-S4,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.25E+07,2.01E+09,5.03E+09
-S4,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.59E+07,2.07E+08,7.05E+08
-S4,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.51E+06,1.55E+09,3.15E+09
-S4,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.59E+07,7.11E+07,1.09E+08
-S4,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.65E+07,8.16E+06,7.96E+06
-S4,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.40E+07,7.11E+08,3.93E+09
-S4,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.46E+07,7.40E+07,6.01E+07
-S4,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.60E+07,1.74E+08,2.49E+08
+S4,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane,Nm3/year,5.32E+07,2.57E+09,6.75E+09
+S4,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas to biomethane,Nm3/year,1.61E+07,3.49E+08,1.25E+09
+S4,FR,Production|Natural gas|Anaerobic digestion grass|Biogas to biomethane,Nm3/year,3.60E+06,3.44E+08,7.31E+08
+S4,FR,Production|Natural gas|Anaerobic digestion biowaste|Biogas to biomethane,Nm3/year,1.32E+07,9.89E+07,1.59E+08
+S4,FR,Production|Natural gas|Anaerobic digestion sewage sludge|Biogas to biomethane,Nm3/year,1.66E+07,8.03E+07,8.20E+07
+S4,FR,Production|Natural gas|Anaerobic digestion agricultural residues|Biogas to biomethane,Nm3/year,2.42E+07,5.34E+08,3.09E+09
+S4,FR,Production|Natural gas|Anaerobic digestion industrial wastewater|Biogas to biomethane,Nm3/year,3.53E+07,7.87E+07,6.69E+07
+S4,FR,Production|Natural gas|Anaerobic digestion animal manure|Biogas to biomethane,Nm3/year,6.66E+07,7.42E+08,1.11E+09
 S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Generic,%,1,1.007453416,1.025654923
 S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CO2 emissions,%,1,1.043757562,1.162342757
 S4,FR,Efficiency|Natural gas|Anaerobic digestion CIVE|Biogas to biomethane|Biogenic CH4 emissions,%,1,1.331678875,5.800052533
