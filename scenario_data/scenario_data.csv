@@ -423,9 +423,13 @@ S1,FR,Efficiency|Mobility|Aviation kerosene,%,1,1.347,1.507
 S1,FR,Production|Liquids|Light fuel oil|Fossil,TWh,1,1,1
 S1,FR,Production|Liquids|LPG|Fossil,TWh,1,1,1
 S1,FR,Heat production|Natural gas|Biomethane,TWh,1,1,1
-S1,FR,Efficiency|Heat production|Biomethane|Consumption,%,1,1.0735,1.4037
-S1,FR,Efficiency|Heat production|Biomethane|CO2,%,1,1.0735,1.40382
-S1,FR,Efficiency|Heat production|Biomethane|CH4,%,1,1.07130,1.3915
+S1,FR,Efficiency|Heat production|Biomethane|Consumption,%,1,1.00207,1.00875
+S1,FR,Efficiency|Heat production|Biomethane|CO2,%,1,1.002097,1.00886
+S1,FR,Efficiency|Heat production|Biomethane|CH4,%,1,1,1
+S1,FR,Heat production|Natural gas|Natural gas,TWh,1,1,1
+S1,FR,Efficiency|Heat production|Natural gas|Consumption,%,1,1.00031,1.00753
+S1,FR,Efficiency|Heat production|Natural gas|CO2,%,1,1.000489,1.00780
+S1,FR,Efficiency|Heat production|Natural gas|CH4,%,1,1,1
 S1,FR,Heat production|District heating|Wastes,TWh,6.4,10,7.5
 S1,FR,Heat production|District heating|Wood,TWh,6,14,17
 S1,FR,Heat production|District heating|Geothermal,TWh,1.4,3,3
