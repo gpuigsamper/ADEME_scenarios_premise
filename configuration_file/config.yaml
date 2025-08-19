@@ -1795,7 +1795,7 @@ production pathways:
       reference product: heat, biomethane
       exists in original database: True
     efficiency:
-      - variable: Efficiency|Heat production|Biomethane|Consumption #would apply to the others if considering the same ng composition
+      - variable: Efficiency|Heat production|Biomethane|Consumption
         reference year: 2020
         includes:
           technosphere: 
@@ -1806,6 +1806,31 @@ production pathways:
           biosphere:
             - Carbon dioxide
       - variable: Efficiency|Heat production|Biomethane|CH4
+        reference year: 2020
+        includes:
+          biosphere:
+            - Methane
+
+#Heat natural gas (foreground)
+  heat_ng:
+    production volume:
+      variable: Heat production|Natural gas|Natural gas
+    ecoinvent alias:
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, natural gas
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Heat production|Natural gas|Consumption
+        reference year: 2020
+        includes:
+          technosphere:
+            - natural gas
+      - variable: Efficiency|Heat production|Natural gas|CO2
+        reference year: 2020
+        includes:
+          biosphere:
+            - Carbon dioxide
+      - variable: Efficiency|Heat production|Natural gas|CH4
         reference year: 2020
         includes:
           biosphere:
@@ -1884,9 +1909,25 @@ production pathways:
       variable: Shelter|Residential|Gas|Space heating and cooling
     ecoinvent alias:
       name: heat production, natural gas, at boiler condensing modulating <100kW
-      reference product: heat, central or small-scale, natural gas
+      reference product: heat, natural gas
       exists in original database: True
-      regionalize: True
+      new dataset: True
+    efficiency:
+      - variable: Efficiency|Heat production|Natural gas|Consumption
+        reference year: 2020
+        includes:
+          technosphere:
+            - natural gas
+      - variable: Efficiency|Heat production|Natural gas|CO2
+        reference year: 2020
+        includes:
+          biosphere:
+            - Carbon dioxide
+      - variable: Efficiency|Heat production|Natural gas|CH4
+        reference year: 2020
+        includes:
+          biosphere:
+            - Methane
 
   shelter_heating_fuel_oil:
     production volume:
@@ -1958,10 +1999,25 @@ production pathways:
       variable: Shelter|Non-residential|Gas|Space heating and cooling
     ecoinvent alias:
       name: heat production, natural gas, at boiler condensing modulating <100kW
-      reference product: heat, central or small-scale, natural gas
+      reference product: heat, natural gas
       exists in original database: True
       new dataset: True
-      regionalize: True
+    efficiency:
+      - variable: Efficiency|Heat production|Natural gas|Consumption
+        reference year: 2020
+        includes:
+          technosphere:
+            - natural gas
+      - variable: Efficiency|Heat production|Natural gas|CO2
+        reference year: 2020
+        includes:
+          biosphere:
+            - Carbon dioxide
+      - variable: Efficiency|Heat production|Natural gas|CH4
+        reference year: 2020
+        includes:
+          biosphere:
+            - Methane
 
   nonres_heating_fuel_oil:
     production volume:
