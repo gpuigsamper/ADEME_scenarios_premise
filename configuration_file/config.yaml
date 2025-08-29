@@ -1893,7 +1893,7 @@ production pathways:
       exists in original database: True
       regionalize: True
 
-#Residential (shelter)
+#Heat residential (shelter)
 
   shelter_heating_dt:
     production volume:
@@ -1983,7 +1983,7 @@ production pathways:
       exists in original database: True
       regionalize: True
     
-#Non-residential (healthcare, education, and collective services)
+#Heat non-residential (healthcare, education, and collective services)
 
   nonres_heating_dt:
     production volume:
@@ -2075,6 +2075,447 @@ production pathways:
       exists in original database: True
       new dataset: True
       regionalize: True
+
+# EoL treatments
+
+  eol_msw_sanitary_landfill:
+    production volume:
+      variable: Hygiene|Waste treatment|MSW|Sanitary landfill
+    ecoinvent alias:
+      name: treatment of municipal solid waste, sanitary landfill
+      reference product: municipal solid waste
+      exists in original database: True
+      regionalize: True
+
+  eol_biowaste_composting:
+    production volume:
+      variable: Hygiene|Waste treatment|Biowaste|Industrial composting
+    ecoinvent alias:
+      name: treatment of biowaste, industrial composting
+      reference product: biowaste
+      exists in original database: True
+      regionalize: True
+
+  eol_inert_landfill:
+    production volume:
+      variable: Hygiene|Waste treatment|Inert|Material landfill
+    ecoinvent alias:
+      name: treatment of inert waste, inert material landfill
+      reference product: inert waste, for final disposal
+      exists in original database: True
+      regionalize: True
+
+  eol_msw_incineration:
+    production volume:
+      variable: Hygiene|Waste treatment|MSW|Incineration
+    ecoinvent alias:
+      name: treatment of municipal solid waste, incineration
+      reference product: electricity, for reuse in municipal waste incineration only
+      exists in original database: True
+      regionalize: True
+
+  eol_msw_unsanitray_landfill:
+    production volume:
+      variable: Hygiene|Waste treatment|MSW|Unsanitary landfill
+    ecoinvent alias:
+      name: treatment of municipal solid waste, unsanitary landfill, wet infiltration class (500mm)
+      reference product: municipal solid waste
+      exists in original database: True
+      regionalize: True
+
+  eol_inert_sanitary_landfill:
+    production volume:
+      variable: Hygiene|Waste treatment|Inert|Sanitary landfill
+    ecoinvent alias:
+      name: treatment of inert waste, sanitary landfill
+      reference product: inert waste
+      exists in original database: True
+      regionalize: True
+
+  eol_hazardous_deposit:
+    production volume:
+      variable: Hygiene|Waste treatment|Hazardous|Deposit
+    ecoinvent alias:
+      name: treatment of hazardous waste, underground deposit
+      reference product: hazardous waste, for underground deposit
+      exists in original database: True
+      regionalize: True
+
+# Mobility DLS
+
+  mobility:
+    production volume:
+      variable: Mobility|DLS
+    ecoinvent alias:
+      name: market for mobility DLS, Tr2050
+      reference product: mobility
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Mobility|Distance travelled
+        reference year: 2020
+        includes:
+          technosphere:
+            - passenger
+
+# Shelter DLS
+
+  shelter:
+    production volume:
+      variable: Shelter|Residential|DLS
+    ecoinvent alias:
+      name: market for shelter DLS, Tr2050
+      reference product: shelter
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Shelter|Residential|Space heating and cooling
+        reference year: 2020
+        includes:
+          technosphere:
+            - heat
+      - variable: Efficiency|Shelter|Residential|Illumination
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+      - variable: Efficiency|Shelter|Residential|Infrastucture
+        reference year: 2020
+        includes:
+          technosphere:
+            - cement
+            - kraft
+            - sawnwood
+            - concrete
+            - steel           
+
+# Clothing
+
+  clothing:
+    production volume:
+      variable: Clothing|DLS
+    ecoinvent alias:
+      name: market for clothing DLS, Tr2050
+      reference product: clothing
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Clothing|Electricity washing and drying
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+
+# Collective services
+
+  collective_services:
+    production volume:
+      variable: Collective services|DLS
+    ecoinvent alias:
+      name: market for collective services DLS, Tr2050
+      reference product: collective services
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Collective services|Space heating and cooling
+        reference year: 2020
+        includes:
+          technosphere:
+            - heat
+      - variable: Efficiency|Collective services|Illumination
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+
+# Healthcare
+
+  healthcare:
+    production volume:
+      variable: Healthcare|DLS
+    ecoinvent alias:
+      name: market for healthcare DLS, Tr2050
+      reference product: healthcare
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Healthcare|Space heating and cooling
+        reference year: 2020
+        includes:
+          technosphere:
+            - heat
+      - variable: Efficiency|Collective services|Illumination #same improvement as collective services
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+
+# Education
+
+  education:
+    production volume:
+      variable: Education|DLS
+    ecoinvent alias:
+      name: market for education DLS, Tr2050
+      reference product: education
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Education|Space heating and cooling
+        reference year: 2020
+        includes:
+          technosphere:
+            - heat
+      - variable: Efficiency|Collective services|Illumination #same improvement as collective services
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+
+# Hygiene
+
+  hygiene:
+    production volume:
+      variable: Hygiene|DLS
+    ecoinvent alias:
+      name: market for hygiene DLS, Tr2050
+      reference product: hygiene
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Hygiene|Domestic hot water
+        reference year: 2020
+        includes:
+          technosphere:
+            - heat
+      - variable: Efficiency|Hygiene|Waste
+        reference year: 2020
+        includes:
+          technosphere:
+            - EoL
+
+# Communciation
+
+  communication:
+    production volume:
+      variable: Communication|DLS
+    ecoinvent alias:
+      name: market for communication DLS, Tr2050
+      reference product: communication
+      exists in original database: True
+      regionalize: True
+    efficiency:
+      - variable: Efficiency|Communication|Electricity
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+      - variable: Efficiency|Hygiene|Phone infrastructure
+        reference year: 2020
+        includes:
+          technosphere:
+            - smartphone
+      - variable: Efficiency|Hygiene|Networks infrastructure
+        reference year: 2020
+        includes:
+          technosphere:
+            - laptop
+            - internet
+
+# Nutrition
+
+  food_diet:
+    production volume:
+      variable: Nutrition|Food|Diet
+    ecoinvent alias:
+      name: food production and provisioning, Tr2050
+      reference product: food, diet composition
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Food|Red meat 
+        reference year: 2020
+        includes:
+          technosphere:
+            - red meat
+      - variable: Efficiency|Food|Swine
+        reference year: 2020
+        includes:
+          technosphere:
+            - swine
+      - variable: Efficiency|Food|Chicken 
+        reference year: 2020
+        includes:
+          technosphere:
+            - chicken
+      - variable: Efficiency|Food|Dairy
+        reference year: 2020
+        includes:
+          technosphere:
+            - cow
+            - yogurt
+      - variable: Efficiency|Food|Fish
+        reference year: 2020
+        includes:
+          technosphere:
+            - marine
+            - trout
+      - variable: Efficiency|Food|Fruits 
+        reference year: 2020
+        includes:
+          technosphere:
+            - apple
+            - apricot
+            - aubergine
+            - avocado
+            - banana
+            - grape
+            - kiwi
+            - lemon
+            - mandarin
+            - mango
+            - melon
+            - olive
+            - orange
+            - pineapple
+            - peach
+            - pomegranate
+            - papaya
+            - pear
+            - palm date
+            - strawberry
+      - variable: Efficiency|Food|Vegetables 
+        reference year: 2020
+        includes:
+          technosphere:
+            - broccoli
+            - white
+            - fennel
+            - asparagus
+            - lettuce
+            - spinach
+            - pepper
+            - carrot
+            - radish
+            - tomato
+            - onion
+            - potato
+            - zucchini
+            - asparagus
+      - variable: Efficiency|Food|Legumes 
+        reference year: 2020
+        includes:
+          technosphere:
+            - protein pea
+            - chickpea
+            - fava
+            - red kidney
+            - lentil
+      - variable: Efficiency|Food|Grains 
+        reference year: 2020
+        includes:
+          technosphere:
+            - rice
+            - wheat
+            - oat
+            - barley
+            - maize
+            - rye
+      - variable: Efficiency|Food|Oil 
+        reference year: 2020
+        includes:
+          technosphere:
+            - vegetable oil
+      - variable: Efficiency|Food|Soybean 
+        reference year: 2020
+        includes:
+          technosphere:
+            - soybean beverage
+      - variable: Efficiency|Food|Tofu 
+        reference year: 2020
+        includes:
+          technosphere:
+            - tofu
+      - variable: Efficiency|Food|Sugar 
+        reference year: 2020
+        includes:
+          technosphere:
+            - sugar
+
+  
+
+# Cooking
+
+  cooking_electricity:
+    production volume:
+      variable: Nutrition|Cooking|Electricity
+    ecoinvent alias:
+      name: cooking with electricity, Tr2050
+      reference product: DLS cooking, electricity
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Cooking|Electricity total
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+
+  cooking_gas:
+    production volume:
+      variable: Nutrition|Cooking|Natural gas
+    ecoinvent alias:
+      name: cooking with gas, Tr2050
+      reference product: DLS cooking, gas
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Cooking|Fuels
+        reference year: 2020
+        includes:
+          technosphere:
+            - natural gas
+          biosphere:
+            - Carbon dioxide
+            - Cabon monoxide
+            - Methane
+            - Nitrogen oxides
+            - NMVOC
+            - Dinitrogen
+            - Particulate
+            - Organic
+            - Sulfur
+      - variable: Efficiency|Cooking|Refrigeration
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
+  
+  cooking_lpg:
+    production volume:
+      variable: Nutrition|Cooking|LPG
+    ecoinvent alias:
+      name: cooking with LPG, Tr2050
+      reference product: DLS cooking, LPG
+      exists in original database: True
+    efficiency:
+      - variable: Efficiency|Cooking|Fuels
+        reference year: 2020
+        includes:
+          technosphere:
+            - liquefied
+          biosphere:
+            - Carbon dioxide
+            - Cabon monoxide
+            - Methane
+            - Nitrogen oxides
+            - NMVOC
+            - Dinitrogen
+            - Particulate
+            - Organic
+            - Sulfur
+      - variable: Efficiency|Cooking|Refrigeration
+        reference year: 2020
+        includes:
+          technosphere:
+            - electricity
 
 markets:
 
@@ -3185,7 +3626,7 @@ markets:
 
   # Mobility
   
-  - name: market for mobility, Tr2050
+  - name: market for passenger mobility, Tr2050
     reference product: transport, passenger
     unit: pkm
     includes:
@@ -3238,3 +3679,29 @@ markets:
       - nonres_heating_lpg
       - nonres_heating_solar
       - nonres_heating_heat_pump
+
+  # EoL treatment
+
+  - name: market for EoL, Tr2050
+    reference product: waste treatment
+    unit: kilogram
+    includes:
+      - eol_biowaste_composting
+      - eol_hazardous_deposit
+      - eol_inert_landfill
+      - eol_inert_sanitary_landfill
+      - eol_msw_incineration
+      - eol_msw_unsanitray_landfill
+      - eol_msw_sanitary_landfill
+
+    waste market: True
+    
+  # Nutrition DLS 
+
+  - name: market for nutrition DLS, Tr2050
+    reference product: nutrition
+    unit: unit
+    includes:
+      - cooking_electricity
+      - cooking_gas
+      - cooking_lpg

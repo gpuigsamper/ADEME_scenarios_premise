@@ -455,22 +455,71 @@ S1,FR,Mobility|Fuel cell bus,pkm,0,0,0
 S1,FR,Mobility|Petrol bike,pkm,81.72109447,72.19564028,17.13671109
 S1,FR,Mobility|Electric bike,pkm,0,3.694903036,47.09272992
 S1,FR,Mobility|Kerosene aviation,pkm,1157.715505,1030.606155,776.3874536
-S1,FR,Shelter|Residential|District heat|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Residential|Gas|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Residential|Oil|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Residential|Wood|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Non-residential|District heat|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Non-residential|Gas|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Non-residential|Oil|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Non-residential|Wood|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Non-residential|Electricity|Space heating and cooling,MJ,0,0.4,0.9
-S1,FR,Shelter|Non-residential|LPG|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Non-residential|Solar|Space heating and cooling,MJ,1,0.6,0.1
-S1,FR,Shelter|Non-residential|Electricity heat pump|Space heating and cooling,MJ,1,0.6,0.1
+S1,FR,Shelter|Residential|District heat|Space heating and cooling,%,0.0441,0.0836,0.0919
+S1,FR,Shelter|Residential|Gas|Space heating and cooling,%,0.3693,0.2458,0.1119
+S1,FR,Shelter|Residential|Oil|Space heating and cooling,%,0.1076,0,0
+S1,FR,Shelter|Residential|Wood|Space heating and cooling,%,0.0868,0.1329,0.1611
+S1,FR,Shelter|Residential|Electricity|Space heating and cooling,%,0.3499,0.3991,0.3981
+S1,FR,Shelter|Residential|LPG|Space heating and cooling,%,0.0138,0,0
+S1,FR,Shelter|Residential|Solar|Space heating and cooling,%,0,0.0132,0.0177
+S1,FR,Shelter|Residential|Electricity heat pump|Space heating and cooling,%,0.0285,0.1254,0.2194
+S1,FR,Shelter|Non-residential|District heat|Space heating and cooling,%,0.0378,0.0405,0.0542
+S1,FR,Shelter|Non-residential|Gas|Space heating and cooling,%,0.318,0.2111,0.0668
+S1,FR,Shelter|Non-residential|Oil|Space heating and cooling,%,0.1119,0.0108,0
+S1,FR,Shelter|Non-residential|Wood|Space heating and cooling,%,0.0041,0.0049,0.0066
+S1,FR,Shelter|Non-residential|Electricity|Space heating and cooling,%,0.4161,0.3496,0.3181
+S1,FR,Shelter|Non-residential|LPG|Space heating and cooling,%,0.0179,0.0108,0
+S1,FR,Shelter|Non-residential|Solar|Space heating and cooling,%,0,0.0176,0.0235
+S1,FR,Shelter|Non-residential|Electricity heat pump|Space heating and cooling,%,0.0942,0.3548,0.5309
+S1,FR,Hygiene|Waste treatment|MSW|Sanitary landfill,%,0.3826,0.5617,0.6264
+S1,FR,Hygiene|Waste treatment|Biowaste|Industrial composting,%,0.065,0.0779,0.0535
+S1,FR,Hygiene|Waste treatment|Inert|Material landfill,%,0.1114,0.1283,0.1568
+S1,FR,Hygiene|Waste treatment|MSW|Incineration,%,0.1494,0.1152,0.0936
+S1,FR,Hygiene|Waste treatment|MSW|Unsanitary landfill,%,0.1787,0.0691,0.0185
+S1,FR,Hygiene|Waste treatment|Inert|Sanitary landfill,%,0.0996,0.0288,0.028
+S1,FR,Hygiene|Waste treatment|Hazardous|Deposit,%,0.0133,0.019,0.0232
+S1,FR,Mobility|DLS,unit,1,1,1
+S1,FR,Efficiency|Mobility|Distance travelled,%,1,1.0214,1.0275
+S1,FR,Shelter|Residential|DLS,unit,1,1,1
+S1,FR,Efficiency|Shelter|Residential|Space heating and cooling,%,1,1.1899,1.9709
+S1,FR,Efficiency|Shelter|Residential|Illumination,%,1,1.1257,1.3905
+S1,FR,Efficiency|Shelter|Residential|Infrastucture,%,1,0.9932,0.9932
+S1,FR,Clothing|DLS,unit,1,1,1
+S1,FR,Efficiency|Clothing|Electricity washing and drying,%,1,1.3401,4.1905
+S1,FR,Collective services|DLS,unit,1,1,1
+S1,FR,Efficiency|Collective services|Space heating and cooling,%,1,0.99942,0.99827
+S1,FR,Efficiency|Collective services|Illumination,%,1,1.1333,1.40
+S1,FR,Healthcare|DLS,unit,1,1,1
+S1,FR,Efficiency|Healthcare|Space heating and cooling,%,1,1.0008,1.0025
+S1,FR,Education|DLS,unit,1,1,1
+S1,FR,Efficiency|Education|Space heating and cooling,%,1,0.9944,0.9834
+S1,FR,Hygiene|DLS,unit,1,1,1
+S1,FR,Efficiency|Hygiene|Domestic hot water,%,1,1.0105,1.0316
+S1,FR,Efficiency|Hygiene|Waste,%,1,1.5143,3.0814
+S1,FR,Communication|DLS,unit,1,1,1
+S1,FR,Efficiency|Communication|Electricity,%,1,0.9849,0.9848
+S1,FR,Efficiency|Hygiene|Phone infrastructure,%,1,0.9817,0.9811
+S1,FR,Efficiency|Hygiene|Networks infrastructure,%,1,0.9860,0.9860
+S1,FR,Nutrition|Food|Diet,unit,1,1,1
+S1,FR,Efficiency|Food|Red meat,%,1,1.3211,4.0827
+S1,FR,Efficiency|Food|Swine,%,1,1.3109,3.7978
+S1,FR,Efficiency|Food|Chicken,%,1,1.1798,1.8989
+S1,FR,Efficiency|Food|Dairy,%,1,1.2202,2.2753
+S1,FR,Efficiency|Food|Fish,%,1,1.2268,2.3487
+S1,FR,Efficiency|Food|Fruits,%,1,1.1629,1.7706
+S1,FR,Efficiency|Food|Vegetables,%,1,0.9705,0.9137
+S1,FR,Efficiency|Food|Legumes,%,1,0.4214,0.1899
+S1,FR,Efficiency|Food|Grains,%,1,0.9898,0.9688
+S1,FR,Efficiency|Food|Oil,%,1,0.9075,0.7596
+S1,FR,Efficiency|Food|Soybean,%,1,0.2793,0.1109
+S1,FR,Efficiency|Food|Tofu,%,1,0.6806,0.4069
+S1,FR,Efficiency|Food|Sugar,%,1,1.0534,1.1868
+S1,FR,Nutrition|Cooking|LPG,%,0.1478,0.1761,0.2058
+S1,FR,Nutrition|Cooking|Natural gas,%,0.3075,0.2417,0.1862
+S1,FR,Nutrition|Cooking|Electricity,%,0.5447,0.5822,0.608
+S1,FR,Efficiency|Cooking|Fuels,%,1,1.3636,5.000
+S1,FR,Efficiency|Cooking|Electricity total,%,1,1.314,3.575
+S1,FR,Efficiency|Cooking|Refrigeration,%,1,1.014,1.076
 S2,FR,Production|Natural gas|Anaerobic digestion CIVE|Biogas,Nm3/year,1.50E+08,5.45E+08,5.36E+08
 S2,FR,Production|Natural gas|Anaerobic digestion dedicated crops|Biogas,Nm3/year,1.03E+08,2.30E+07,0.00E+00
 S2,FR,Production|Natural gas|Anaerobic digestion grass|Biogas,Nm3/year,1.35E+07,8.74E+07,6.23E+07
