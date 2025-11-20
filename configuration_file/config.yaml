@@ -3628,7 +3628,7 @@ markets:
   
   - name: market for passenger mobility, Tr2050
     reference product: transport, passenger
-    unit: pkm
+    unit: person kilometer
     includes:
       - mob_train
       - mob_bicycle
@@ -3649,6 +3649,16 @@ markets:
       - mob_bike_petrol
       - mob_bike_electric
       - mob_plane_kerosene
+
+    replaces:
+      - name: transport, passenger train
+        product: transport, passenger train
+        location: FR
+    
+    replaces in:
+      - name: market for mobility DLS, Tr2050
+        location: FR
+        operator: equals
 
   # Shelter (heating and cooling)
   
