@@ -2292,7 +2292,7 @@ production pathways:
         reference year: 2020
         includes:
           technosphere:
-            - EoL
+            - treatment
 
 # Communciation
 
@@ -3675,6 +3675,16 @@ markets:
       - shelter_heating_solar
       - shelter_heating_heat_pump
 
+    replaces:
+      - name: heat production, natural gas, at boiler condensing modulating <100kW
+        product: heat, natural gas
+        location: FR
+    
+    replaces in:
+      - name: market for shelter DLS, Tr2050
+        location: FR
+        operator: equals
+
   # Non-residential buildings (heating and cooling)
 
   - name: market for heat non-residential, Tr2050
@@ -3689,6 +3699,11 @@ markets:
       - nonres_heating_lpg
       - nonres_heating_solar
       - nonres_heating_heat_pump
+  
+    replaces:
+      - name: empty market, proxy for market for heat non-shelter
+        product: empty market, proxy for market for heat non-shelter
+        location: FR
 
   # EoL treatment
 
@@ -3703,6 +3718,16 @@ markets:
       - eol_msw_incineration
       - eol_msw_unsanitray_landfill
       - eol_msw_sanitary_landfill
+  
+    replaces:
+      - name: treatment of municipal solid waste, sanitary landfill
+        product: municipal solid waste
+        location: RoW
+    
+    replaces in:
+      - name: market for hygiene DLS, Tr2050
+        location: FR
+        operator: equals
 
     waste market: True
     
