@@ -485,7 +485,7 @@ production pathways:
       variable: Production|Hydrogen|Fossil fuel refineries|Co-produced|Oil refining
     ecoinvent alias:
       name: hydrogen production, gaseous, petroleum refinery operation
-      reference product: hydrogen, gaseous
+      reference product: hydrogen, gaseous, low pressure
       exists in original database: True
 
 
