@@ -140,7 +140,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Conventional|Waste
     ecoinvent alias:
-      name: treatment of municipal solid waste, incineration
+      name: treatment of municipal solid waste, municipal incineration
       reference product: electricity, for reuse in municipal waste incineration only
       exists in original database: True
 
@@ -1842,7 +1842,7 @@ production pathways:
     production volume:
       variable: Heat production|District heating|Wastes
     ecoinvent alias:
-      name: treatment of municipal solid waste, incineration
+      name: treatment of municipal solid waste, municipal incineration
       reference product: heat, for reuse in municipal waste incineration only
       exists in original database: True
       regionalize: True
@@ -2109,7 +2109,7 @@ production pathways:
     production volume:
       variable: Hygiene|Waste treatment|MSW|Incineration
     ecoinvent alias:
-      name: treatment of municipal solid waste, incineration
+      name: treatment of municipal solid waste, municipal incineration
       reference product: electricity, for reuse in municipal waste incineration only
       exists in original database: True
       regionalize: True
