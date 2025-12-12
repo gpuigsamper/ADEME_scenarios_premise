@@ -22,12 +22,19 @@ from datapackage import Package
 # Open brightway project
 
 ```python
-bw2data.projects.set_current("HySPI_premise_Tr2050_5")
+#Put the name of your brightway project
+# ecoinvent + biosphere shall be already loaded as databases of the project
+# It should be ecoinvent 3.9 or more recent version
+NAME_BW_PROJECT="HySPI_premise_Tr2050_7"
+```
 
+```python
+#Open the brightway project
+bw2data.projects.set_current(NAME_BW_PROJECT)
 #bw2data.projects.current
 
 #Print the databases that are in your project
-bw2data.databases
+list(bw2data.databases)
 ```
 
 ```python
@@ -36,16 +43,8 @@ ecoinvent_3_9_bio_db_name="ecoinvent-3.9.1-biosphere"
 ```
 
 ```python
-#del bw2data.databases["ecoinvent_cutoff_3.9_image_SSP2-Base_2050_S3 Renew - Green technologies renewables"]
-```
-
-```python
-#bw2io.create_default_biosphere3(overwrite=True)
-```
-
-```python
-#from premise_gwp import add_premise_gwp
-#add_premise_gwp()
+#if needed to delete a database
+#del bw2data.databases['tiam-SSP2-Base-N1']
 ```
 
 # Load input data
@@ -79,11 +78,11 @@ world_scenario_5="SSP2-NPi"
 year=2050
 
 #French scenario
-fr_scenario_1="S1 - Frugal generation"
-fr_scenario_2="S2 - Territorial cooperation"
-fr_scenario_3="S3 Renew - Green technologies renewables"
-fr_scenario_3bis="S3 Nuc - Green technologies nuclear"
-fr_scenario_4="S4 - Repairing bet"
+fr_scenario_1="S1"# - Frugal generation"
+fr_scenario_2="S2"# - Territorial cooperation"
+fr_scenario_3="S3 Renew"# - Green technologies renewables"
+fr_scenario_3bis="S3 Nuc"# - Green technologies nuclear"
+fr_scenario_4="S4"# - Repairing bet"
 ```
 
 ## For tests : exploration of one database 
@@ -93,7 +92,12 @@ fr_scenario_4="S4 - Repairing bet"
 
 ```python
 scenarios = [
-        {"model": model_2, "pathway":world_scenario_2, "year": year, "external scenarios": [{"scenario": fr_scenario_3, "data": ademe}]},
+        {"model": model_2, "pathway":world_scenario_4, "year": year, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
+        {"model": model_2, "pathway":world_scenario_4, "year": year, "external scenarios": [{"scenario": fr_scenario_2, "data": ademe}]},
+        {"model": model_2, "pathway":world_scenario_4, "year": year, "external scenarios": [{"scenario": fr_scenario_3, "data": ademe}]},
+        {"model": model_2, "pathway":world_scenario_4, "year": year, "external scenarios": [{"scenario": fr_scenario_3bis, "data": ademe}]},
+        {"model": model_2, "pathway":world_scenario_4, "year": year, "external scenarios": [{"scenario": fr_scenario_4, "data": ademe}]},
+
         ]
 ```
 
@@ -121,8 +125,13 @@ ndb.update()
 ```
 
 ```python
+#ndb.write_superstructure_db_to_brightway()
+```
+
+```python
 #Not mandatory for tests
 ndb.write_db_to_brightway()
+#ndb.write_db_to_brightway(name=['tiam - rcp45 - S2 - last et fossil'])
 ```
 
 ```python
@@ -132,7 +141,28 @@ bw2data.databases
 ## Explore nbd without printing the database to brightway (to save time) 
 
 ```python
-#clear_cache() #if too slow
+#
+clear_cache() #if too slow
+```
+
+```python
+ndb.scenarios[0].keys()
+```
+
+```python
+list_act=ndb.database
+```
+
+```python
+keyword="pumped storage"
+
+for act in list_act:
+    if keyword in act["name"]:    
+        print(act["name"])
+```
+
+```python
+ndb.database[0]["name"]
 ```
 
 ```python
@@ -152,7 +182,9 @@ for act in list_act:
 ```
 
 ```python
-activity_name = "market for hydrogen, gaseous, for transport - direct use of H2, Tr2050"
+activity_name = "electricity production, hydro, pumped storage, Tr2050"
+
+#activity_name = "market for hydrogen, gaseous, for biofuel refinery use, Tr2050"
 
 for act in list_act:
     if activity_name==act["name"]:    
@@ -161,7 +193,6 @@ for act in list_act:
 
 ```python
 #Print all exchanges of a given activity
-activity_name = "market for hydrogen, gaseous, for transport - direct use of H2, Tr2050"
 
 for act in list_act:
     if activity_name==act["name"]:    
@@ -171,11 +202,7 @@ for act in list_act:
 ```
 
 ```python
-#Print all exchanges of a given activity
-activity_name = "market for hydrogen, gaseous, for transport - direct use of H2, Tr2050"
-#activity_name = "hydrogen production, steam methane reforming of natural gas, with CCS (MDEA, 98% eff.), 25 bar"
-#activity_name = "hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity"
-
+#Print all technosphere exchanges of a given activity
 for act in list_act:
     if activity_name==act["name"] and act["location"]=='FR':    
         for e in act["exchanges"]:
@@ -204,6 +231,10 @@ type(list_act),len(list_act),act_test.keys()
 ```
 
 ```python
+ndb.scenarios[0]
+```
+
+```python
 #List of the keys of an exchange
 act_test["exchanges"][0].keys()
 ```
@@ -211,7 +242,7 @@ act_test["exchanges"][0].keys()
 ### Explore the new databases
 
 ```python
-db_name='S1_2050_SSP2Base'
+db_name='ei_cutoff_3.9_tiam-ucl_SSP2-RCP45_2050_S4 2025-03-12'
 ```
 
 ```python
@@ -220,10 +251,16 @@ acts=[act for act in bw2data.Database(db_name) if "Tr2050" in act["name"]]
 
 ```python
 acts
+
 ```
 
 ```python
-act=[act for act in bw2data.Database(db_to_explore_name) if "market for electricity, high voltage, Tr2050" in act["name"] and act["location"]=="FR"][0]
+act=[act for act in bw2data.Database(db_name) if "market for electricity, high voltage, Tr2050" in act["name"] and act["location"]=="FR"][0]
+act
+```
+
+```python
+act=[act for act in bw2data.Database(db_name) if "empty" in act["name"]][0]
 act
 ```
 
@@ -231,4 +268,25 @@ act
 exc = [exc for exc in act.exchanges()]
 exc
 #exc = [exc for exc in act.exchanges() if "wind" in e.input["name"]][0]  # ¡¡¡Nota: e.input et torna l'activitat!!!!
+```
+
+```python
+exc[0].input
+```
+
+```python
+climate = ('EF v3.1', 'climate change', 'global warming potential (GWP100)')
+#impact calculation
+lca = act.lca(method=climate, amount=1)
+score = lca.score
+unit = bw2data.Method(climate).metadata["unit"]
+score
+```
+
+```python
+
+```
+
+```python
+
 ```
