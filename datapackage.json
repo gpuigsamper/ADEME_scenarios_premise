@@ -6,25 +6,15 @@
     "version": "1.0.0",
     "contributors":[
         {
-            "title": "Joanna Schlesinger",
-            "email": "joanna.schlesinger@minesparis.psl.eu"
-           
+            "title": "Joanna Schlesinger-Martinat",
+            "email": "joanna.schlesinger@minesparis.psl.eu"          
         },{
-            "title": "Romain Sacchi",
-             "email": "romain.sacchi@psi.ch"
-        },{
-            "title": "Juliana Steinbach",
-             "email": "juliana.steinbach@minesparis.psl.eu"
-        },{
-            "title": "Thomas Beaussier",
-             "email": "thomas.beaussier@minesparis.psl.eu"
-		},{
-            "title": "Paula Perez-Lopez",
-             "email": "paula;perez_lopez@minesparis.psl.eu"
+            "title": "Gonzalo Puig-Samper",
+             "email": "gonzalo.puig-samper@list.lu"
         }
     ],
     "dependencies": {
-        "premise": ">=2.2.6"
+        "premise": "=2.2.6"
     },
     "ecoinvent": {
         "version": "3.9.1",
