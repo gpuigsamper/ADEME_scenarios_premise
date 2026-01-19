@@ -138,11 +138,8 @@ List of French scenarios
 
 Authors of this data package
 ----------------------------
-* Joanna Schlesinger
-* Romain Sacchi 
-* Juliana Steinbach 
-* Thomas Beaussier 
-* Paula Perez-Lopez
+* Joanna Schlesinger-Martinat
+* Gonzalo Puig-Samper
 
 
 Acknowledgements
@@ -153,7 +150,7 @@ We would like to thank ADEME experts for providing datasets and explanations to 
 Funding
 -------
 This work is supported by the ADEME agency, in the context of
-the [`HYSPI project`](https://www.psi.ch/en/ta/projects/hyspi). 
+the [`HYSPI project`](https://www.psi.ch/en/ta/projects/hyspi) and by ENGIE in the context of Gonzalo Puig-Sampers' PhD. 
 
 
 
