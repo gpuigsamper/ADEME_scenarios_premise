@@ -2676,7 +2676,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2716,7 +2716,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2756,7 +2756,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2795,7 +2795,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2835,7 +2835,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2875,7 +2875,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2913,7 +2913,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -2951,7 +2951,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
@@ -3031,7 +3031,7 @@ markets:
         reference product: hydrogen storage
         unit: kilogram
         amount: 0.302074305
-      - name: market for electricity, low voltage
+      - name: market for electricity, low voltage, Tr2050
         reference product: electricity, low voltage
         unit: kilowatt hour
         amount: 1.82
