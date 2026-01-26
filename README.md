@@ -117,7 +117,7 @@ The newly created market datasets are tagged with 'Tr2050', for example : `marke
 
 Ecoinvent database compatibility
 --------------------------------
-ecoinvent 3.9.1 cut-off
+ecoinvent 3.10.1 cut-off
 
 IAM scenario compatibility
 ---------------------------
