@@ -34,11 +34,7 @@
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
       }],
     "scenarios": [
-        "S1",
-        "S2",
-        "S3 Renew",
-        "S3 Nuc",
-        "S4"
+        "S1"
     ],
     "resources": [
         {
