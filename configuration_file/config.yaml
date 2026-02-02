@@ -1888,8 +1888,8 @@ production pathways:
     production volume:
       variable: Heat production|District heating|Gas
     ecoinvent alias:
-      name: heat production, natural gas, at boiler condensing modulating >100kW
-      reference product: heat, district or industrial, natural gas
+      name: heat production, natural gas, at boiler condensing modulating <100kW
+      reference product: heat, natural gas
       exists in original database: True
       regionalize: True
 
