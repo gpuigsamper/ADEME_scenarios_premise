@@ -1,4 +1,4 @@
-# French prospective scenarios : Transition(s) 2050 / ADEME
+# French prospective scenarios *Transition(s) 2050* 
 Implementation of the S1 narrative from French prospective scenarios *Transition(s) 2050* from the French Ecological Transition Agency (ADEME) into the ecoinvent database.
 
 What does this repository do ?
@@ -69,7 +69,7 @@ This datapackage contains four files necessary for the scenarios implementation 
 * A tabular data file **scenario_data.xlsx** containing the time series for each variable in the set of scenarios. 
 * An optional Excel file **LCI-Tr2050.xlsx** containing the additional LCIs for any activity not initially present in the ecoinvent database. 
 
-How to use this notebook ?
+How to use it ?
 ------------------
 * 0. Prerequisites: ecoinvent licence
 * 1. Install the environment as explained [`here`](https://github.com/polca/premise?tab=readme-ov-file#how-to-install-this-package).
