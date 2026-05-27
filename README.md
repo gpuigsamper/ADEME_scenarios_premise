@@ -1,15 +1,15 @@
-# Premise + French prospective scenarios : Transition(s) 2050 / ADEME
-Implementation of French prospective scenarios from ADEME study "Transition(s) 2050" into ecoinvent database with premise
-
+# French prospective scenarios : Transition(s) 2050 / ADEME
+Implementation of the S1 narrative from French prospective scenarios *Transition(s) 2050* from the French Ecological Transition Agency (ADEME) into the ecoinvent database.
 
 What does this repository do ?
 -----------
+This is a repository containing a data package that implements the narratives of *Transition(s) 2050* prospective scenarios for France into ecoinvent. The **S1 narrative** projections are implemented along with a demand based on the fulfilment of decent living standards (DLS) in France.
+
+This data package is built using [`premise`](https://github.com/polca/premise) and can be coupled to global scenarios from integrated assessment models (IAM) in [`premise`](https://github.com/polca/premise) to capture projections outside the scope of *Transition(s) 2050* scenarios. The data package can be used to estimate the environmental impacts of meeting DLS in France under the S1 narrative projections and to estimate the environmental impacts of production pathways and markets, as outlined in the S1 narrative. The data package contains all the necessary files to implement the scenario in [`premise`](https://github.com/polca/premise).
+
 ![boundaries map](https://github.com/oie-mines-paristech/ADEME_scenarios_premise/blob/main/assets/map.png?raw=true)
 
-This is a repository containing the implementation of prospective scenarios for France into ecoinvent. It generates databases for providing decent living standards (DLS) under the considered policy scenario (S1 narrative) until 2050. The prospective scenarios are provided in the "Transition(s) 2050" study by the French Agency for Ecological Transition - ADEME.   
-
-The scope of ADEME prospective study is metropolitan France, from now to 2050, and covers most of the economic sectors.
-This repository creates market-specific activities in the life-cycle inventory database ecoinvent for the following sectors in France:
+The scope of ADEME prospective study is metropolitan France, from now to 2050, and covers most of the economic sectors. This repository creates market-specific activities in the ecoivent life-cycle inventory database for the following sectors in France:
 
 * Electricity
 * Hydrogen
@@ -17,11 +17,11 @@ This repository creates market-specific activities in the life-cycle inventory d
 * Biomethane and synthetic natural gas
 * Biogas
 * Liquefied petroleum gas (LPGs)
-* Liquid carburants
+* Liquid fuels
 * Heat
-* End-of-life treatment
+* End-of-life treatments
 
-Demand levels are set to decent living standards levels, thereby generating consuming markets for the different DLS dimensions:
+Demand levels are set to DLS levels, thereby generating consuming markets for the different DLS dimensions:
 
 * Clothing
 * Collective services
@@ -33,8 +33,12 @@ Demand levels are set to decent living standards levels, thereby generating cons
 * Mobility
 * Shelter
 
-The evolution at the world regional scale are modeled by coupling the French scenarios with a global scenario provided by integrated assessment models (IAM).
+Publication
+------------------------
 
+This data package is used to produce the results of the following publication:
+**Decent living within planetary boundaries? A methodological framework for assessing prospective policy scenarios**
+Gonzalo Puig-Samper, Joanna Schlesinger-Martinat, Natacha Gondran, Julie Clavreul, Anne Prieur-Vernat, Mikołaj Owsianiak. (*Submitted*)
 
 ADEME prospective study 
 ------------------------
@@ -57,26 +61,21 @@ How is the repository organized ?
 -----------
 
 This repository is meant to be used with the open-source python library [`premise`](https://github.com/polca/premise), using the [`user-defined scenario functionnality`](https://premise.readthedocs.io/en/latest/user_scenarios.html).
-The data relating to the annual production volumes for each scenario have been formatted and organised in a data package defined by the Frictionless standards (Walsh and Pollock, 2022). This data package is read and interpreted by `premise`. We therefore store a number of scenarios in a single data package.
 
-This datapackage contains four files necessary to the scenarios implementation into the ecoinvent LCA database: 
+This datapackage contains four files necessary for the scenarios implementation into the ecoinvent LCA database: 
 
 * A **datapackage.json** file, which provides the metadata for the data package (e.g. authors, scenario descriptions, list and locations of resources, etc.). 
-* A **config.yaml** file which provides the correspondence between the scenario variables and the LCA datasets in the ecoinvent DB, as well as the additional "LCA datasets" when they are not available in the ecoinvent database. 
+* A **config.yaml** file which provides the correspondence between the scenario variables and the LCA datasets in the ecoinvent database, as well as the additional life-cycle inventories (LCI) when they are not available in the ecoinvent database. 
 * A tabular data file **scenario_data.xlsx** containing the time series for each variable in the set of scenarios. 
-* An optional Excel file **LCI-Tr2050.xlsx** containing the LCA inventories of the additional "LCA datasets" for any technology not initially present in the ecoinvent database. 
-
-Additionally, a pdf document called "supplementary information" presents the methodological choices that where made to build this model.
-
+* An optional Excel file **LCI-Tr2050.xlsx** containing the additional LCIs for any activity not initially present in the ecoinvent database. 
 
 How to use this notebook ?
 ------------------
 * 0. Prerequisites: ecoinvent licence
 * 1. Install the environment as explained [`here`](https://github.com/polca/premise?tab=readme-ov-file#how-to-install-this-package).
-  Use premise version => 3.2.4
+  Use premise version => 2.3.5
 * 2. Create a brightway project and load ecoinvent database in the project. It can be done using [`ecoinvent_interface`](https://github.com/brightway-lca/ecoinvent_interface).
-* 3. Run the following script for a chosen combination of Year x IAM model x IAM scenario x French scenario. Here is an example for two French scenarios combined with the same IAM scenario, with ecoinvent 3.10.1.
-* 3. (bis) Or run the file run-premise-ademe.md. Example notebook to run premise with and without external scenarios [`here`](https://github.com/polca/premise/tree/master/examples).
+* 3. Run the following script for a chosen combination of Year x IAM model x IAM scenario x French scenario. Here is an example for one French scenario combined with two different IAM scenarios for 2030 and 2050.
 
   ```python
 
@@ -99,14 +98,14 @@ How to use this notebook ?
     #Choose the world scenario
     world_scenario_1="SSP2-M"
     world_scenario_2="SSP2-VLHO"
-    #Choose the Year
-    year=2050
     #Choose the French scenario 
     fr_scenario_1="S1"
     
     scenarios = [
-        {"model": model_1, "pathway":world_scenario_1, "year": year, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
-        {"model": model_1, "pathway":world_scenario_2, "year": year, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
+        {"model": model_1, "pathway":world_scenario_1, "year": 2030, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
+        {"model": model_1, "pathway":world_scenario_1, "year": 2050, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
+        {"model": model_1, "pathway":world_scenario_2, "year": 2030, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]},
+        {"model": model_1, "pathway":world_scenario_2, "year": 2050, "external scenarios": [{"scenario": fr_scenario_1, "data": ademe}]}
         ]
   
     ndb = NewDatabase(
@@ -117,7 +116,7 @@ How to use this notebook ?
         biosphere_name=ecoinvent_3_10_bio_db_name,
         )
   
-    ndb.update()
+    ndb.update() #nb.update(["external"]) if coupling with IAMs is not desired
   
     ndb.write_db_to_brightway()
   
@@ -125,23 +124,20 @@ How to use this notebook ?
 
   ```
   
-A prospective version of ecoinvent is generated for each combination of : Year x IAM model x IAM scenario x French scenario.
-The newly created market datasets are tagged with 'Tr2050', for example : `market for electricity, high voltage, Tr2050` (FR) or `market for nutrition DLS, Tr2050` (FR)
+A prospective version of ecoinvent is generated for each combination of : Year x IAM model x IAM scenario x French scenario. Databases can be alternatively written as a superstructure database to be used in Activity Browser. 
+The newly created market datasets are tagged with 'Tr2050', for example : `market for electricity, high voltage, Tr2050` (FR) or `market for nutrition DLS, Tr2050` (FR).
+
+Environmental impacts using the control variables from the planetary boundaries framework can be calculated using the [`PB-LCIA`](https://github.com/gpuigsamper/PB-LCIA/tree/ei_310) python package.
 
 Ecoinvent database compatibility
 --------------------------------
-ecoinvent 3.10.1 cut-off
-
-IAM scenario compatibility
----------------------------
-The user can couple each French scenario with a global scenario (IAM) provided by premise.\
-The available IAM scenarios provided by premise can be explored [`here`](https://premisedash-6f5a0259c487.herokuapp.com/)\
-The choice of IAM scenario is under the responsability of the user of this repository.
+* ecoinvent 3.9.1 cut-off (DLS_S1_ecoinvent3.9.1)
+* ecoinvent 3.10.1 cut-off (DLS_S1_ecoinvent3.10)
 
 Authors of this data package
 ----------------------------
-* Joanna Schlesinger-Martinat
 * Gonzalo Puig-Samper
+* Joanna Schlesinger-Martinat
 
 Acknowledgements
 ----------------------------
@@ -149,14 +145,5 @@ We would like to thank ADEME experts for providing datasets and explanations to 
 
 Funding
 -------
-This work is supported by the ADEME agency, in the context of
+This work has been supported by the ADEME agency, in the context of
 the [`HYSPI project`](https://www.psi.ch/en/ta/projects/hyspi) and by ENGIE in the context of Gonzalo Puig-Sampers' PhD (CIFRE individual fellowship [grant number 2022/0710]).
-
-
-
-
-
-
-
-
-
