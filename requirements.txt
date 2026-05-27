@@ -1,0 +1,7 @@
+numpy
+pandas
+pyyaml
+schema
+premise[bw2]>=2.3.5
+datapackage
+bw2io<=0.8.12
