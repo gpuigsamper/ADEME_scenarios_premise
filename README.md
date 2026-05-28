@@ -84,7 +84,9 @@ pip install -r requirements.txt
 ```
 The script is compatible with **premise version 2.3.5** and with **Brightway2** framework. It could be compatible with more recent versions of premise but the authors can not guarantee it. 
 
-3. Generate the prospective databases : run the following script for a chosen combination of Year x IAM model x IAM scenario x French scenario. Here is an example for one French scenario combined with two different IAM scenarios for 2030 and 2050. You can alternatively run the notebook 'run-premise-ademe'. 
+To run premise, you have to get a key, that can be asked to Romain Sacchi. 
+
+3. Generate the prospective databases : run the following script for a chosen combination of Year x IAM model x IAM scenario x French scenario. Here is an example for one French scenario combined with two different IAM scenarios for 2030 and 2050. You can alternatively run the notebook 'run-premise-ademe' (add the premise key before runing it!).
 
   ```python
 
