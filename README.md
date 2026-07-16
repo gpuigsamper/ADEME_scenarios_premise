@@ -80,6 +80,7 @@ How to use it ?
 2. Install the environment dedicated to prospective database generation.
 ```python
 conda create -n name_env python=3.11
+conda activate name_env
 pip install -r requirements.txt
 ```
 The script is compatible with **premise version 2.3.5** and with **Brightway2** framework. It could be compatible with more recent versions of premise but the authors can not guarantee it. 
@@ -135,13 +136,46 @@ To run premise, you have to get a key, that can be asked to Romain Sacchi.
 
   ```
   
+An additional adjustment was applied to non-CO₂ and non-CH₄ emissions from heat production activities using natural gas and biomethane. The remaining emissions were derived from ecoinvent data but are not reported in the LCIs due to licensing restrictions.
+For each created database, you can introduce these emissions as follows:
+
+  ```python
+  ecoinvent_db = bd.Database('ecoinvent-3.10.1-cutoff')
+  heat_FR = [act for act in ecoinvent_db if "heat production, natural gas, at boiler condensing modulating <100kW" in act["name"] and
+           act["location"]=="Europe without Switzerland"][0]
+  exchanges_bios = [ex for ex in heat_FR.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
+  new_heat =[a for a in selected_db if "heat production, natural gas, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
+  
+    for db in selected_db_list:
+        new_heat =[a for a in db if "heat production, natural gas, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"] #there are two activities for heat production in the database
+        for ex in exchanges_bios:
+            for act in new_heat:
+                act.new_exchange(
+                    input=ex.input,
+                    amount=ex.amount,
+                    type="biosphere"
+                ).save()
+
+  heat_FR_biomethane = [act for act in ecoinvent_db if "heat production, biomethane, at boiler condensing modulating <100kW" in act["name"] and
+            act["location"]=="Europe without Switzerland"][0]
+  exchanges_bios_biomethane = [ex for ex in heat_FR_biomethane.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
+  new_heat_biomethane =[a for a in selected_db if "heat production, biomethane, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
+  
+  for ex in exchanges_bios_biomethane:
+      new_heat_biomethane.new_exchange(
+          input=ex.input,
+          amount=ex.amount,
+          type="biosphere"
+      ).save()
+  ```
+
 A prospective version of ecoinvent is generated for each combination of : Year x IAM model x IAM scenario x French scenario. For more information about IAM scenarios available in premise, please check [`premise documentation`](https://premise.readthedocs.io/en/latest/introduction.html#choosing-the-right-iam).
 
 Databases can be alternatively written as a superstructure database to be used in Activity Browser. 
 
 The newly created market datasets are tagged with 'Tr2050', for example : `market for electricity, high voltage, Tr2050` (FR) or `market for nutrition DLS, Tr2050` (FR).
 
-This repository is only dedicated to the generation of prospective databases. Environmental impacts using the control variables from the planetary boundaries framework (as it is made in the publication) can be calculated using the [`PB-LCIA`](https://github.com/gpuigsamper/PB-LCIA/tree/ei_310) python package.
+The environmental impacts associated with meeting decent living standards on the basis of the control variables from the planetary boundaries framework (as it is made in the publication) can be calculated using the [`PB-LCIA`](https://github.com/gpuigsamper/PB-LCIA/tree/ei_310) python package. The scripts in the publication folder conduct this quantification, as made in the article. 
 
 
 Authors of this data package
