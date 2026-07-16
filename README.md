@@ -140,11 +140,11 @@ An additional adjustment was applied to non-CO₂ and non-CH₄ emissions from h
 For each created database, you can introduce these emissions as follows:
 
   ```python
-  ecoinvent_db = bd.Database('ecoinvent-3.10.1-cutoff')
-  heat_FR = [act for act in ecoinvent_db if "heat production, natural gas, at boiler condensing modulating <100kW" in act["name"] and
+    ecoinvent_db = bd.Database('ecoinvent-3.10.1-cutoff')
+    heat_FR = [act for act in ecoinvent_db if "heat production, natural gas, at boiler condensing modulating <100kW" in act["name"] and
            act["location"]=="Europe without Switzerland"][0]
-  exchanges_bios = [ex for ex in heat_FR.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
-  new_heat =[a for a in selected_db if "heat production, natural gas, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
+    exchanges_bios = [ex for ex in heat_FR.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
+    new_heat =[a for a in selected_db if "heat production, natural gas, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
   
     for db in selected_db_list:
         new_heat =[a for a in db if "heat production, natural gas, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"] #there are two activities for heat production in the database
@@ -154,14 +154,14 @@ For each created database, you can introduce these emissions as follows:
                     input=ex.input,
                     amount=ex.amount,
                     type="biosphere"
-                ).save()
+                    ).save()
 
-  heat_FR_biomethane = [act for act in ecoinvent_db if "heat production, biomethane, at boiler condensing modulating <100kW" in act["name"] and
+    heat_FR_biomethane = [act for act in ecoinvent_db if "heat production, biomethane, at boiler condensing modulating <100kW" in act["name"] and
             act["location"]=="Europe without Switzerland"][0]
-  exchanges_bios_biomethane = [ex for ex in heat_FR_biomethane.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
-  new_heat_biomethane =[a for a in selected_db if "heat production, biomethane, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
+    exchanges_bios_biomethane = [ex for ex in heat_FR_biomethane.biosphere() if not "Carbon dioxide" in ex["name"] and not "Methane" in ex["name"]]
+    new_heat_biomethane =[a for a in selected_db if "heat production, biomethane, at boiler condensing modulating <100kW" in a["name"] and a["location"]=="FR"][0]
   
-  for ex in exchanges_bios_biomethane:
+    for ex in exchanges_bios_biomethane:
       new_heat_biomethane.new_exchange(
           input=ex.input,
           amount=ex.amount,
